@@ -13,6 +13,10 @@ tags:
   - tiled
   
 gallery:
+  - url: /assets/images/watercolor_umd.jpg
+    image_path: /assets/images/watercolor_umd.jpg
+    alt: "watercolor umd"
+    title: "University of Maryland (watercolor)"
   - url: /assets/images/portrait_1.jpg
     image_path: /assets/images/portrait_1.jpg
     alt: "portrait 1"
