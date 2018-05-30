@@ -25,6 +25,10 @@ gallery:
     image_path: /assets/images/acrylic_suki.jpg
     alt: "acrylic agc"
     title: "postcard (Acrylic)"
+  - url: /assets/images/watercolor_umd.jpg
+    image_path: /assets/images/watercolor_umd.jpg
+    alt: "watercolor umd"
+    title: "University of Maryland (watercolor)"
 ---
 
 {% include gallery caption="My paintings" %}

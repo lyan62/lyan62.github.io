@@ -105,7 +105,7 @@ author:
   location         : "University of Maryland"
   email            :
   uri              :
-  home             : /about/ # null (default), "absolute or relative url to link to author home"
+  home             :  # null (default), "absolute or relative url to link to author home"
   bitbucket        :
   codepen          :
   dribbble         :
@@ -257,10 +257,10 @@ compress_html:
 
 # Defaults
 defaults:
-  # _posts
+  # _pages
   - scope:
       path: ""
-      type: posts
+      type: pages
     values:
       layout: single
       author_profile: true
