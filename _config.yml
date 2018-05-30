@@ -19,11 +19,11 @@ title                    : ""
 title_separator          : "-"
 name                     : "Wenyan Li"
 description              : "Maktub"
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://lyan62.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : /assets/images/profile.jpg # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-# breadcrumbs            : false # true, false (default)
+repository               : "lyan62/lyan62.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+teaser                   :  # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+breadcrumbs            : true # true, false (default)
 words_per_minute         : 200
 comments:
   provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
@@ -100,12 +100,12 @@ analytics:
 # Site Author
 author:
   name             : "Wenyan Li"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : /assets/images/profile.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "MS student in EE/CS"
   location         : "University of Maryland"
   email            :
   uri              :
-  home             : # null (default), "absolute or relative url to link to author home"
+  home             : /about/ # null (default), "absolute or relative url to link to author home"
   bitbucket        :
   codepen          :
   dribbble         :
