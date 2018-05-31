@@ -46,8 +46,8 @@ parity(3)
 
 
 ### P4_1 count bits
-count number of 1s in binary representation of an integer ([img source](https://www.geeksforgeeks.org/wp-content/uploads/setbit.png)).
-<img src="setbit.png",alt="setbit">
+count number of 1s in binary representation of an integer.
+![set_bit](/assets/images/posts/setbit.png)([img source](https://www.geeksforgeeks.org/wp-content/uploads/setbit.png)).
 
 
 ```python
