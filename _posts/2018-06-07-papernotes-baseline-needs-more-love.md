@@ -2,7 +2,7 @@
 layout: single
 classes: wide
 title:  "READING NOTES: Baseline needs more love(Shen et.al)"
-date:   2018-05-30
+date:   2018-06-07
 ---
 
 Reading notes of [Baseline Needs More Love: On Simple Word-Embedding-Based Models and Associated Pooling Mechanisms](https://arxiv.org/abs/1805.09843)
