@@ -18,15 +18,15 @@ locale                   : "en-US"
 title                    : "WENYAN LI"
 title_separator          : "-"
 name                     : "Wenyan Li"
-description              : "Maktub"
+description              : "Powered by Jekyll and minimal-mistakes theme"
 url                      : "https://lyan62.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "lyan62/lyan62.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   :  # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-breadcrumbs            : true # true, false (default)
+breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
+  provider               : "facebook" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
   disqus:
     shortname            : "lyan62" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
@@ -37,21 +37,21 @@ comments:
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
 staticman:
-  allowedFields          : # ['name', 'email', 'url', 'message']
-  branch                 : # "master"
-  commitMessage          : # "New comment."
-  filename               : # comment-{@timestamp}
-  format                 : # "yml"
-  moderation             : # true
-  path                   : # "/_data/comments/{options.slug}" (default)
+  allowedFields          : #['name', 'email', 'url', 'message']
+  branch                 : #"master"
+  commitMessage          : #"New comment."
+  filename               : #comment-{@timestamp}
+  format                 : #"yml"
+  moderation             : #true
+  path                   : #"/_data/comments/{options.slug}" (default)
   requiredFields         : # ['name', 'email', 'message']
   transforms:
-    email                : # "md5"
+    email                : #"md5"
   generatedFields:
     date:
-      type               : # "date"
+      type               : #"date"
       options:
-        format           : # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
+        format           : #"iso8601" #(default), "timestamp-seconds", "timestamp-milliseconds"
 reCaptcha:
   siteKey                :
   secret                 :
@@ -103,7 +103,7 @@ author:
   avatar           : /assets/images/profile.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "MS student in EE/CS"
   location         : "University of Maryland"
-  email            :
+  email            : "wenyanl9562@gmail.com"
   uri              :
   home             :  # null (default), "absolute or relative url to link to author home"
   bitbucket        :
@@ -112,11 +112,11 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           :
+  github           : "lyan62"
   gitlab           :
   google_plus      :
   keybase          :
-  instagram        :
+  instagram        : "lyan9562"
   lastfm           :
   linkedin         : # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
   pinterest        :
@@ -265,6 +265,6 @@ defaults:
       layout: single
       author_profile: true
       read_time: false
-      comments: # true
+      comments: true
       share: true
       related: true

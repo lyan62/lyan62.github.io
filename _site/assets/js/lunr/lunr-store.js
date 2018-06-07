@@ -4,7 +4,7 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/EPI04_primitive_types/",
         "teaser":null},{
-        "title": "READING NOTES: Baseline needs more love(Shen et.al)",
+        "title": "READING NOTES: Baseline needs more love (Shen et.al)",
         "excerpt":"Reading notes of Baseline Needs More Love: On Simple Word-Embedding-Based Models and Associated Pooling Mechanisms Main Idea: Point to point comparision between Simple word embedding based models(pooling strategies) and RNN/CNNs on 17 datasets and three tasks: long document classification text sequence matching short text tasks (classification &amp; matching)SWEM-based: Pooling strategies:...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/papernotes-baseline-needs-more-love/",
