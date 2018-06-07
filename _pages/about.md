@@ -1,6 +1,7 @@
 ---
 title:  "About"
 layout: archive
+classes: wide
 permalink: /about/
 author_profile: true
 comments: true

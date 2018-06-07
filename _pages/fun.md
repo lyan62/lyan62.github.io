@@ -2,6 +2,7 @@
 toc: true
 title:  "Fun"
 layout: archive
+classes: wide
 permalink: /fun/
 author_profile: true
 comments: true

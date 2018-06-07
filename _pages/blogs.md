@@ -1,6 +1,7 @@
 ---
 title:  "Blogs"
 layout: archive
+classes: wide
 permalink: /blogs/
 author_profile: true
 comments: true
