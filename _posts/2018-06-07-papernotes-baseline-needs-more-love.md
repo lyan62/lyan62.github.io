@@ -1,7 +1,7 @@
 ---
 layout: single
 classes: wide
-title:  "READING NOTES: Baseline needs more love(Shen et.al)"
+title:  "READING NOTES: Baseline needs more love (Shen et.al)"
 date:   2018-06-07
 ---
 
