@@ -11,9 +11,6 @@ tags:
   - paintings
   - acrylic
 
-header:
-  image: /assets/images/fun/summer.png
-
 gallery:
   - url: /assets/images/fun/cp.png
     image_path: /assets/images/fun/cp.png
