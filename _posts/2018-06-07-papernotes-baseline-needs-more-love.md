@@ -25,6 +25,7 @@ Point to point comparision between **Simple word embedding based models**(poolin
 
 - Parameters and speed:
 	faster than CNN/RNN by a factor of $$nd$$ or $$d$$.
+	(ok now seems kramdown works fine)
 
 ## Experiment details:
 - Embeddings: Use GloVe embeddings  or refined embeddings with MLP
