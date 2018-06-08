@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-06-07T16:11:14-04:00</updated><id>http://localhost:4000/</id><title type="html">WENYAN LI</title><subtitle>Powered by Jekyll and minimal-mistakes theme</subtitle><author><name>Wenyan Li</name><email>wenyanl9562@gmail.com</email></author><entry><title type="html">READING NOTES: Baseline needs more love (Shen et.al)</title><link href="http://localhost:4000/papernotes-baseline-needs-more-love/" rel="alternate" type="text/html" title="READING NOTES: Baseline needs more love (Shen et.al)" /><published>2018-06-07T00:00:00-04:00</published><updated>2018-06-07T00:00:00-04:00</updated><id>http://localhost:4000/papernotes-baseline-needs-more-love</id><content type="html" xml:base="http://localhost:4000/papernotes-baseline-needs-more-love/">&lt;p&gt;Reading notes of &lt;a href=&quot;https://arxiv.org/abs/1805.09843&quot;&gt;Baseline Needs More Love: On Simple Word-Embedding-Based Models and Associated Pooling Mechanisms&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-06-08T11:50:29-04:00</updated><id>http://localhost:4000/</id><title type="html">WENYAN LI</title><subtitle>Powered by Jekyll and minimal-mistakes theme</subtitle><author><name>Wenyan Li</name><email>wenyanl9562@gmail.com</email></author><entry><title type="html">READING NOTES: Baseline needs more love (Shen et.al)</title><link href="http://localhost:4000/papernotes-baseline-needs-more-love/" rel="alternate" type="text/html" title="READING NOTES: Baseline needs more love (Shen et.al)" /><published>2018-06-07T00:00:00-04:00</published><updated>2018-06-07T00:00:00-04:00</updated><id>http://localhost:4000/papernotes-baseline-needs-more-love</id><content type="html" xml:base="http://localhost:4000/papernotes-baseline-needs-more-love/">&lt;p&gt;Reading notes of &lt;a href=&quot;https://arxiv.org/abs/1805.09843&quot;&gt;Baseline Needs More Love: On Simple Word-Embedding-Based Models and Associated Pooling Mechanisms&lt;/a&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;main-idea&quot;&gt;Main Idea:&lt;/h1&gt;
 &lt;p&gt;Point to point comparision between &lt;strong&gt;Simple word embedding based models&lt;/strong&gt;(pooling strategies) and &lt;strong&gt;RNN/CNNs&lt;/strong&gt; on 17 datasets and three tasks:&lt;/p&gt;
@@ -16,7 +16,7 @@
       &lt;li&gt;&lt;strong&gt;max pooling&lt;/strong&gt; on fix dimension of word embedding matrix  –&amp;gt; most salient features&lt;/li&gt;
       &lt;li&gt;&lt;strong&gt;hierarchical pooling&lt;/strong&gt; –&amp;gt; abstract and keep spatial info
         &lt;ul&gt;
-          &lt;li&gt;average pooling in window of length &lt;script type=&quot;math/tex&quot;&gt;n&lt;/script&gt; =&amp;gt;&lt;/li&gt;
+          &lt;li&gt;average pooling in window of length n =&amp;gt;&lt;/li&gt;
           &lt;li&gt;max-pooling on features from all windows&lt;/li&gt;
         &lt;/ul&gt;
       &lt;/li&gt;
@@ -24,7 +24,7 @@
     &lt;/ol&gt;
   &lt;/li&gt;
   &lt;li&gt;Parameters and speed:
-  faster than CNN/RNN by a factor of &lt;script type=&quot;math/tex&quot;&gt;nd&lt;/script&gt; or &lt;script type=&quot;math/tex&quot;&gt;d&lt;/script&gt;.&lt;/li&gt;
+  faster than CNN/RNN by a factor of nd or d.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;experiment-details&quot;&gt;Experiment details:&lt;/h2&gt;
@@ -46,7 +46,7 @@
 &lt;h3 id=&quot;discussion-on-word-order-features&quot;&gt;Discussion on word-order features&lt;/h3&gt;
 &lt;p&gt;The paper has an interesting discussion on the importance of word-order features, and perform an experiment by &lt;strong&gt;shuffling words in training, and keeping word order in test set&lt;/strong&gt; =&amp;gt; LSTM has comparable accuracies on Yahoo and SNLI to unshuffeled training data!&lt;/p&gt;
 
-&lt;p&gt;Sentiment analysis is more sensitive to word-order features than other tasks.&lt;/p&gt;</content><author><name>Wenyan Li</name><email>wenyanl9562@gmail.com</email></author><summary type="html">Reading notes of Baseline Needs More Love: On Simple Word-Embedding-Based Models and Associated Pooling Mechanisms</summary></entry><entry><title type="html">NOTES: EPI Ch4 Primitive Types</title><link href="http://localhost:4000/EPI04_primitive_types/" rel="alternate" type="text/html" title="NOTES: EPI Ch4 Primitive Types" /><published>2018-05-30T00:00:00-04:00</published><updated>2018-05-30T00:00:00-04:00</updated><id>http://localhost:4000/EPI04_primitive_types</id><content type="html" xml:base="http://localhost:4000/EPI04_primitive_types/">&lt;h2 id=&quot;primitive-types&quot;&gt;Primitive Types&lt;/h2&gt;
+&lt;p&gt;Sentiment analysis is more sensitive to word-order features than other tasks.&lt;/p&gt;</content><author><name>Wenyan Li</name><email>wenyanl9562@gmail.com</email></author><category term="notes" /><category term="paper" /><summary type="html">Reading notes of Baseline Needs More Love: On Simple Word-Embedding-Based Models and Associated Pooling Mechanisms</summary></entry><entry><title type="html">NOTES: EPI Ch4 Primitive Types</title><link href="http://localhost:4000/EPI04_primitive_types/" rel="alternate" type="text/html" title="NOTES: EPI Ch4 Primitive Types" /><published>2018-05-30T00:00:00-04:00</published><updated>2018-05-30T00:00:00-04:00</updated><id>http://localhost:4000/EPI04_primitive_types</id><content type="html" xml:base="http://localhost:4000/EPI04_primitive_types/">&lt;h2 id=&quot;primitive-types&quot;&gt;Primitive Types&lt;/h2&gt;
 
 &lt;h3 id=&quot;41-parity&quot;&gt;4.1 Parity&lt;/h3&gt;
 &lt;p&gt;Parity fo a binary word is 1 if the number of 1s in the word is odd, o.w. is 0.&lt;/p&gt;
@@ -114,4 +114,4 @@
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;1
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Wenyan Li</name><email>wenyanl9562@gmail.com</email></author><summary type="html">Primitive Types</summary></entry></feed>
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Wenyan Li</name><email>wenyanl9562@gmail.com</email></author><category term="notes" /><category term="EPI" /><summary type="html">Primitive Types</summary></entry></feed>
