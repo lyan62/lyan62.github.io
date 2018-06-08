@@ -4,9 +4,9 @@ main:
      url: /about/
    - title: "Projects"
      url: /projects/
+   - title: "Blogs"
+     url: /blogs/
    - title: "Fun"
      url: /fun/
    - title: "Gallery"
      url: /fun/gallery
-   - title: "Blogs"
-     url: /blogs/
