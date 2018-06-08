@@ -1,6 +1,7 @@
 ---
 title: "Projects"
 layout: splash
+author_profile: true
 permalink: /projects/
 date: 2016-06-08
 header:
