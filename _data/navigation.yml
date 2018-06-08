@@ -6,5 +6,7 @@ main:
      url: /projects/
    - title: "Fun"
      url: /fun/
+   - title: "Gallery"
+     url: /fun/gallery
    - title: "Blogs"
      url: /blogs/
