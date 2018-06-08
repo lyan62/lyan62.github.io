@@ -2,8 +2,8 @@
 layout: single
 classes: wide
 title:  "NOTES: EPI Ch4 Primitive Types"
-date:   2018-05-30
 tags: [notes, EPI]
+date:   2018-05-30
 ---
 
 ## Primitive Types
