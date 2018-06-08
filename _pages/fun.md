@@ -34,8 +34,8 @@ gallery_2:
     title: "University of Maryland (watercolor)"
 ---
 
-"Life's journey is not to arrive at the grave safely, in a well preserved body, but rather to skid in sideways,
-totally worn out, shouting, 'Holy mackerel... what a ride!'." -- [Christof Koch](https://en.wikipedia.org/wiki/Christof_Koch)
+_"Life's journey is not to arrive at the grave safely, in a well preserved body, but rather to skid in sideways,
+totally worn out, shouting, 'Holy mackerel... what a ride!'."_-- [Christof Koch](https://en.wikipedia.org/wiki/Christof_Koch)
 
 These are what I've explored in my adventure: 
 - [Drawing/painting](https://lyan62.deviantart.com/gallery/) (since 2012): pencil sketching, acrylic, gouache 

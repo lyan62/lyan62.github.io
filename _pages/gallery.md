@@ -4,14 +4,16 @@ title:  "Gallery"
 layout: single
 clases: wide
 permalink: /fun/gallery
-author_profile: true
 
 comments: true
 
 tags:
   - paintings
   - acrylic
-  
+
+header:
+  image: /assets/images/fun/summer.png
+
 gallery:
   - url: /assets/images/fun/cp.png
     image_path: /assets/images/fun/cp.png
