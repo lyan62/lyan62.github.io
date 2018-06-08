@@ -23,7 +23,7 @@ feature_row1:
     alt: "panorama completed"
     title: "Photo Mosaics Implementation"
     excerpt: 'An end-to-end pipeline for image panorama stitching.'
-    url: "https://github.com/lyan62/pictorial-processing/blob/master/wenyanli_proj1/Report/Report.pdf"
+    url: /assets/pdfs/panorama.pdf
     btn_label: "Read More"
     
   - image_path: /assets/images/projects/faces.png
@@ -31,7 +31,7 @@ feature_row1:
     alt: "face-swapped image"
     title: "Face swapping in images and video."
     excerpt: "Implemented face replacement by using Triangulation and Thin Plate Spline (TPS), and improved swapped image with blending."
-    url: "https://github.com/lyan62/pictorial-processing/blob/master/wenyanli_proj2/wenyanli_proj2/Report/Report.pdf"
+    url: /assets/pdfs/face_swap.pdf
     btn_label: "Read More"
     
   - image_path: /assets/images/projects/sfm.png
@@ -39,7 +39,7 @@ feature_row1:
     alt: "structure from motion"
     title: "Structure from Mothion"
     excerpt: "3D Scene reconstruction and simultaneously obtaining camera pose wrt the scene."
-    url: "https://github.com/lyan62/pictorial-processing/blob/master/wenyanli_P3/report/report.pdf"
+    url: /assets/pdfs/sfm.pdf
     btn_label: "Read More"
 ---
 {% include feature_row id="intro_2" type="center" %}
