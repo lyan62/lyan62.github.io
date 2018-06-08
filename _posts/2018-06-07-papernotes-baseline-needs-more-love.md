@@ -18,12 +18,12 @@ Point to point comparision between **Simple word embedding based models**(poolin
 	1. **average pooling**: Average of word embeddings for input sequence.
 	1. **max pooling** on fix dimension of word embedding matrix  --> most salient features
 	1. **hierarchical pooling** --> abstract and keep spatial info
-	 - average pooling in window of length $$n$$ =>
+	 - average pooling in window of length n =>
 	 - max-pooling on features from all windows
 	1. **concat features extracted from first two**
 
 - Parameters and speed:
-	faster than CNN/RNN by a factor of $$nd$$ or $$d$$.
+	faster than CNN/RNN by a factor of nd or d.
 
 ## Experiment details:
 - Embeddings: Use GloVe embeddings  or refined embeddings with MLP
