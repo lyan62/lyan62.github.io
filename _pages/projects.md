@@ -37,7 +37,7 @@ feature_row1:
   - image_path: /assets/images/projects/sfm.png
     image_caption: "Point cloud display"
     alt: "structure from motion"
-    title: "Structure from Mothion"
+    title: "Structure from Motion"
     excerpt: "3D Scene reconstruction and simultaneously obtaining camera pose wrt the scene."
     url: /assets/pdfs/sfm.pdf
     btn_label: "Read More"
