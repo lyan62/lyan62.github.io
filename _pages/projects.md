@@ -11,13 +11,32 @@ header:
   caption: "Featuer matching in the process of panorama building."
 excerpt: "Natural Language Processing. Computer Vision. Deep Learning."
 
-intro_1: 
-  - excerpt: '**Computer Vision Related Projects**'
-intro_2:
+intro_nlp:
   - excerpt: '**Natural Language Processing Related Projects (Updating soon)**'
+intro_ml: 
+  - excerpt: '**Machine Learning Related Projects**'
+intro_cv: 
+  - excerpt: '**Computer Vision Related Projects**'
 
+ml_row:
+  - image_path: /assets/images/projects/gi.png
+    image_caption: "Predicted interaction scores between pair-wise genes"
+    alt: "gene interaction"
+    title: "Genetic Interactions Prediction"
+    excerpt: 'Predicting pairwise gene interactions using gene ontotype and random forest procedure described in [Yu, et al. (Cell Systems, 2016)](http://www.cell.com/cell-systems/abstract/S2405-4712(16)30033-3) 
+    on the *S. cerevisiae* data'
+    url: /assets/pdfs/gi.pdf
+    btn_label: "Read More"
+    
+  - image_path: /assets/images/projects/face_recog.png
+    image_caption: "Face recognition with different face poses"
+    alt: "face recognition"
+    title: "Face Recognition"
+    excerpt: 'Face recognition with PCA, LDA, KNN and Naive Bayes'
+    url: /assets/pdfs/face_recog.pdf
+    btn_label: "Read More"
   
-feature_row1:
+cv_row:
   - image_path: /assets/images/projects/panorama.png
     image_caption: "Panorama built with three photos"
     alt: "panorama completed"
@@ -42,7 +61,11 @@ feature_row1:
     url: /assets/pdfs/sfm.pdf
     btn_label: "Read More"
 ---
-{% include feature_row id="intro_2" type="center" %}
-{% include feature_row id="intro_1" type="center" %}
-{% include feature_row id="feature_row1" type="left" %}
+{% include feature_row id="intro_nlp" type="center" %}
+
+{% include feature_row id="intro_ml" type="center" %}
+{% include feature_row id="ml_row" type="left" %}
+
+{% include feature_row id="intro_cv" type="center" %}
+{% include feature_row id="cv_row" type="left" %}
 
