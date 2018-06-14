@@ -69,3 +69,4 @@ cv_row:
 {% include feature_row id="intro_cv" type="center" %}
 {% include feature_row id="cv_row" type="left" %}
 
+
