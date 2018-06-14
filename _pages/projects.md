@@ -24,7 +24,7 @@ ml_row:
     alt: "gene interaction"
     title: "Genetic Interactions Prediction"
     excerpt: 'Predicting pairwise gene interactions using random forest procedure with gene ontotype described in [Yu, et al. (Cell Systems, 2016)](http://www.cell.com/cell-systems/abstract/S2405-4712(16)30033-3) 
-    on the *S. cerevisiae* data from [Costanzo, et al. (Science, 2010)](http://science.sciencemag.org/content/327/5964/425.long)'
+    on the *S. cerevisiae* data from [Costanzo, et al. (Science, 2010)](http://science.sciencemag.org/content/327/5964/425.long).'
     url: /assets/pdfs/gi.pdf
     btn_label: "Read More"
     
@@ -32,7 +32,7 @@ ml_row:
     image_caption: "Face recognition with different face poses"
     alt: "face recognition"
     title: "Face Recognition"
-    excerpt: 'Face recognition with PCA, LDA, KNN and Naive Bayes'
+    excerpt: 'Face recognition with PCA, LDA, KNN and Naive Bayes.'
     url: /assets/pdfs/face_recog.pdf
     btn_label: "Read More"
   
