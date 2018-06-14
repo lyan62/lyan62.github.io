@@ -20,7 +20,7 @@ intro_cv:
 
 ml_row:
   - image_path: /assets/images/projects/gi.png
-    image_caption: "Predicted interaction scores between pair-wise genes"
+    image_caption: "Interaction scores predicted between pair-wise genes"
     alt: "gene interaction"
     title: "Genetic Interactions Prediction"
     excerpt: 'Predicting pairwise gene interactions using gene ontotype and random forest procedure described in [Yu, et al. (Cell Systems, 2016)](http://www.cell.com/cell-systems/abstract/S2405-4712(16)30033-3) 
