@@ -14,7 +14,7 @@ State-of-art accuarcy, large scale, **fast** text classification using linear mo
 - fast loss approximation
 
 ### Linear model with Rank Constraint
-Word representations (bag of ngram) --*averaged*--> text representation ==> classification (**softmax** , i.e. NECLoss).
+Word representations (bag of ngram) *--averaged-->* text representation ==> classification (**softmax** , i.e. NECLoss).
 - Complexity: $$O($$num_class * hidden_dim$$)$$
 - Speeding up: **Hierachical Softmax** (based on Huffman coding tree) 
 	- Complexity $$O($$hidden_dim * $$log_2$$(num_class)$$)$$
