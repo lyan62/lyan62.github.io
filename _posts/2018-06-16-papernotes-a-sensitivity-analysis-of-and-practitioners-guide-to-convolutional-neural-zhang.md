@@ -52,7 +52,8 @@ softmax layer for classification
 
 
 ### Discussion
-Well, hyperparameter tuning is always time-consuming and sometimes even frustrating, the baseline configuration and suggestions included in the paper  could be useful for practitioners on this task:
+Well, hyperparameter tuning is always time-consuming and sometimes even frustrating.
+Though it's task specific, the baseline configuration and suggestions included in the paper  could be useful for practitioners on this task:
 - input word vectors: Glove 
 - filter region size: (3,4,5)
 - feature maps: 100
