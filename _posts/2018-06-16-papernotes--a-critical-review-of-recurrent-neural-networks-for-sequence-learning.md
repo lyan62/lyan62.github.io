@@ -2,7 +2,7 @@
 layout: single
 classes: wide
 title:  "READING NOTES: A Critical Review of Recurrent Neural Networks for Sequence Learning (Lipton and Berkowitz)"
-tags: [notes, paper]
+tags: [notes, paper, DL]
 date:   2018-06-16
 ---
 
