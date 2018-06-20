@@ -21,7 +21,7 @@ Another strategy is too predict the missing component to reduce translation late
 
 ## Methods
 - Conduct incomplete parsing with:  
-$$T* = argmax_{T}Pr(T|\mathbf{L}},\mathbf{w},\mathbf{R})$$, where $$\mathbf{L}$$ can be retrieved from history as it was already seen.
+$$T = argmax_{T}Pr(T|\mathbf{L}},\mathbf{w},\mathbf{R})$$, where $$\mathbf{L}$$ can be retrieved from history as it was already seen.
 - Predict syntactic constitutents: multilabel prediction with linear SVMs based on features including words, pos tags, parse, length of the consititutents.
 - Apply the syntactic prediction to MT (Tree to string translation):  if future component needs reordering -->  take a wait action; assume constitutent tag as word.
 
