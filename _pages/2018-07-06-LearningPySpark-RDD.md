@@ -1,4 +1,5 @@
 ---
+permalink: /resources/learningSparkRDD
 layout: single
 classes: wide
 title:  "Notebook: Learning PySpark - Resilient Distributed Datasets"
