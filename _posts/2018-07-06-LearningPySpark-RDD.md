@@ -1,3 +1,11 @@
+---
+layout: single
+classes: wide
+title:  "Learning PySpark - Resilient Distributed Datasets"
+tags: [notes, learning]
+date:   2018-07-06
+---
+Learning notebook based on [https://github.com/PacktPublishing/Learning-PySpark].
 # Learning PySpark - Resilient Distributed Datasets
 
 ### Creating RDDs
