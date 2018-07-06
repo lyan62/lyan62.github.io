@@ -1,11 +1,11 @@
 ---
 layout: single
 classes: wide
-title:  "Learning PySpark - Resilient Distributed Datasets"
-tags: [notes, learning]
+title:  "Notebook: Learning PySpark - Resilient Distributed Datasets"
+tags: [notebook, learning]
 date:   2018-07-06
 ---
-Learning notebook based on [https://github.com/PacktPublishing/Learning-PySpark].
+[Learning PySpark notebook (Chapter 03)](https://github.com/PacktPublishing/Learning-PySpark) with comments.
 # Learning PySpark - Resilient Distributed Datasets
 
 ### Creating RDDs
@@ -225,7 +225,7 @@ data_from_file_conv.map(lambda row: row).take(1)
 
 
 
-**Working in cluster model:**   
+**Working in cluster mode:**   
 - A job is submitted to the master node (driver), through a DAG, the worker is assigned for the specific tasks.
 - The master node provides the workers variables and methods for task executing.(each worker gets a copy)
 
