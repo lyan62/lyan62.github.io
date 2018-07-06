@@ -1,6 +1,6 @@
 ---
 title:  "Resources"
-layout: archive
+layout: single
 classes: wide
 permalink: /resources/
 author_profile: true
