@@ -33,6 +33,8 @@ leetcode:
        url: /leetcode/array/001
      - title: "026 Remove duplicates from sorted array"
        url: /leetcode/array/026
+     - title: "036 Validate sudoku"
+       url: /leetcode/array/026
      - title: "066 Plus one"
        url: /leetcode/array/066
      - title: "122 Best time to buy and sell stock II"
