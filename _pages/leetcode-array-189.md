@@ -47,7 +47,7 @@ sidebar:
 ----------------------------
 ## Solution
 - Brute-force
-逐位移动。 time complexity: $$O(len(nums)*k)$$,  space complexity: $$O(1)$$  
+逐位移动。 time complexity: $$O(len(nums)*k)$$,  space complexity: $$O(1)$$
 ```python
 class Solution(object):
     def moveonce(self, nums):
@@ -71,7 +71,6 @@ class Solution(object):
 - solution 2:  
 去掉sol1中的外部循环。 time complexity: $$O(len(nums))$$,
 space complexity: $$O(k)$$  
-
 ```python
 class Solution(object):
     def rotate(self, nums, k):
@@ -99,12 +98,10 @@ With reference to [juggling algorithm](https://www.geeksforgeeks.org/array-rotat
 2. If GCD == 1: 逐位移动（solution 1）
 3. else: 将array分为长度为k的chunk
 4. 将后面几个chunk的数依次rotate
-> e.g. input = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12], k = 3,
-
-	
+> e.g. input = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12], k = 3, gcd = 3
 ```python
 def leftRotate(nums, k):
-    for i in range(gcd(k,len(nums))): # with input = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12], k = 3, gcd=3
+    for i in range(gcd(k,len(nums))): 
         # move i-th values of blocks 
         temp = arr[i]
         j = i
