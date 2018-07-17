@@ -16,6 +16,9 @@ main:
 docs:
    - title: "Collections"
      url: /collections
+     children:
+     - title: "Leetcode notes"
+       url: /leetcode/array/
    - title: "Notebooks"
      children:
      - title: "Learning Pyspark"
