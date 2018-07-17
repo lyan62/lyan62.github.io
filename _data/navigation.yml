@@ -30,6 +30,8 @@ leetcode:
        url: /leetcode/array/026
      - title: "122 Best time to buy and sell stock II"
        url: /leetcode/array/122
+     - title: "136 Single number"
+       url: /leetcode/array/136
      - title: "189 Rotate array"
        url: /leetcode/array/189
      - title: "217 Contains duplicates"
