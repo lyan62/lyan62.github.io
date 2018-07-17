@@ -2,7 +2,7 @@
 permalink: /leetcode/array/
 layout: single
 classes: wide
-title:  "Leetcode Array Collection"
+title:  "Array"
 tags: [leetcode, array]
 date:   2018-07-17
 sidebar:
