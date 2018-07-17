@@ -47,7 +47,7 @@ sidebar:
 ----------------------------
 ## Solution
 - Brute-force
-逐位移动。 time complexity: $$O(len(nums)*k)$$,  space complexity: $$O(1)$$。
+逐位移动。 time complexity: $$O(len(nums)*k)$$,  space complexity: $$O(1)$$
 ```python
 class Solution(object):
     def moveonce(self, nums):
@@ -66,10 +66,12 @@ class Solution(object):
         for i in range(k):
             nums = self.moveonce(nums)
 ```
+-------------------------------------------
 
-- solution 2:
-去掉sol1中的外部循环。 time complexity: $$O(len(nums))$$, 
-space complexity: $$O(k)$$
+- solution 2:  
+去掉sol1中的外部循环。 time complexity: $$O(len(nums))$$,
+space complexity: $$O(k)$$  
+
 ```python
 class Solution(object):
     def rotate(self, nums, k):
@@ -85,13 +87,14 @@ class Solution(object):
                 nums[i] = nums[i-k]
             nums[0:k] = tmp
 ```
+
+----------------------------------------------
            
 - solution 3:     
-Time complexity: $$O(n)$$, Auxiliary Space: $$O(1)$$.
-With reference to https://www.geeksforgeeks.org/array-rotation/
+Time complexity: $$O(n)$$, Auxiliary Space: $$O(1)$$  
+With reference to [juggling algorithm](https://www.geeksforgeeks.org/array-rotation/).  
 
 ![Juggling algorithm](https://cdncontribute.geeksforgeeks.org/wp-content/uploads/arra.jpg "explanation")
-[juggling algorithm](https://www.geeksforgeeks.org/array-rotation/)
 1. 求len(nums)和k的最大公约数: e.x. GCD = 3 if  len(nums) = 12 & k = 3
 2. If GCD == 1: 逐位移动（solution 1）
 3. else: 将array分为长度为k的chunk
