@@ -26,6 +26,8 @@ leetcode:
    - title: "Array"
      url: /leetcode/array/
      children:
+     - title: "001 Two sum"
+       url: /leetcode/array/001
      - title: "026 Remove duplicates from sorted array"
        url: /leetcode/array/026
      - title: "066 Plus one"

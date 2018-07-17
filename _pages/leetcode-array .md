@@ -12,6 +12,7 @@ sidebar:
 Problems listed in the order of difficulty. * denotes in top interview questions.
 
 # Easy
+- 001 Two sum * ([note](https://lyan62.github.io/leetcode/array/001))
 - 026 Remove duplicates from sorted array * ([note](https://lyan62.github.io/leetcode/array/026))
 - 066 Plus one * ([note](https://lyan62.github.io/leetcode/array/066))
 - 122 Best Time to Buy and Sell Stock II *(([note](https://lyan62.github.io/leetcode/array/122))
