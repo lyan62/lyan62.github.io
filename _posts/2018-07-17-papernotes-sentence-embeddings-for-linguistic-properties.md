@@ -1,7 +1,7 @@
 ---
 layout: single
 classes: wide
-title:  "READING NOTES: sentence embeddings for linguistic properties (Conneau et al., 2018)"
+title:  "READING NOTES: Sentence embeddings for linguistic properties (Conneau et al., 2018)"
 tags: [notes, paper]
 date:   2018-07-17
 ---
