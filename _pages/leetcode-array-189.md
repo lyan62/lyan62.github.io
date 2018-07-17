@@ -103,10 +103,8 @@ With reference to [juggling algorithm](https://www.geeksforgeeks.org/array-rotat
 
 	
 ```python
-#Function to left rotate arr[] of size n by d
 def leftRotate(nums, k):
-# with input = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12], k = 3, gcd=3
-    for i in range(gcd(k,len(nums))):
+    for i in range(gcd(k,len(nums))): # with input = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12], k = 3, gcd=3
         # move i-th values of blocks 
         temp = arr[i]
         j = i
