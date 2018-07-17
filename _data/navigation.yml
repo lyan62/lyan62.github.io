@@ -10,16 +10,21 @@ main:
      url: /blogs/
    - title: "Fun"
      url: /fun/
-
+   - title: "Resources"
+     url: /collections/
 # sidebar links
 docs:
-  - title: Resources
-    children:
-      - title: "Resources"
-        url: /docs/resources/
-fun:
-  - title: Fun
-    children:
-      - title: "Drawing/Painting"
-        url: /fun/gallery
+   - title: "Collections"
+     url: /collections
+   - title: "Notebooks"
+     children:
+     - title: "Learning Pyspark"
+       url: /collections/notebooks/learning-pyspark-rdd
+
+# sidebar for leetcode practice
+leetcode:
+   - title: "Array"
+     children:
+     - title: "189 Rotate Array"
+       url: /leetcode/array/189
 

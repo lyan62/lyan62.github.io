@@ -1,10 +1,12 @@
 ---
-permalink: /resources/learningSparkRDD
+permalink: /collections/notebooks/learning-pyspark-rdd
 layout: single
 classes: wide
 title:  "Notebook: Learning PySpark - Resilient Distributed Datasets"
 tags: [notebook, learning]
 date:   2018-07-06
+sidebar:
+  nav: "docs"
 ---
 [Learning PySpark notebook (Chapter 03)](https://github.com/PacktPublishing/Learning-PySpark) with comments.
 # Learning PySpark - Resilient Distributed Datasets
