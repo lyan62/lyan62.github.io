@@ -13,9 +13,9 @@ sidebar:
 >  [Original Description](https://leetcode.com/problems/move-zeroes/description/):
 >  Given an array nums, write a function to move all 0's to the end of it while maintaining the relative order of the non-zero elements.  
 >  Note: You must do this **in-place** without making a copy of the array.
-Minimize the total number of operations.
-----------------------------
+Minimize the total number of operations.  
 
+----------------------------
 - 要求：
 给一个数组, 把其中所有的0放到其他非0数的后面
 
