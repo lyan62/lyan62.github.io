@@ -35,6 +35,8 @@ leetcode:
        url: /leetcode/array/026
      - title: "036 Validate sudoku"
        url: /leetcode/array/036
+     - title: "048 Rotate image"
+       url: /leetcode/array/048
      - title: "066 Plus one"
        url: /leetcode/array/066
      - title: "122 Best time to buy and sell stock II"
