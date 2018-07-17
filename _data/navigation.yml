@@ -24,7 +24,7 @@ docs:
 # sidebar for leetcode practice
 leetcode:
    - title: "Array"
-     url: /leetcode/array
+     url: /leetcode/array/
      children:
      - title: "026 Remove duplicates from sorted array"
        url: /leetcode/array/026
