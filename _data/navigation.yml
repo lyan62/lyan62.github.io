@@ -28,6 +28,8 @@ leetcode:
      children:
      - title: "026 Remove duplicates from sorted array"
        url: /leetcode/array/026
+     - title: "122 Best Time to Buy and Sell Stock II"
+       url: /leetcode/array/122
      - title: "189 Rotate Array"
        url: /leetcode/array/189
 
