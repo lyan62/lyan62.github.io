@@ -47,7 +47,7 @@ sidebar:
 ----------------------------
 ## Solution
 - Brute-force
-逐位移动。 time complexity: $$O(len(nums)*k)$$,  space complexity: $$O(1)$$
+逐位移动。 time complexity: $$O(len(nums)*k)$$,  space complexity: $$O(1)$$  
 ```python
 class Solution(object):
     def moveonce(self, nums):
