@@ -10,5 +10,16 @@ main:
      url: /blogs/
    - title: "Fun"
      url: /fun/
-   - title: "Gallery"
-     url: /fun/gallery
+
+# sidebar links
+docs:
+  - title: Resources
+    children:
+      - title: "Resources"
+        url: /docs/resources/
+fun:
+  - title: Fun
+    children:
+      - title: "Drawing/Painting"
+        url: /fun/gallery
+

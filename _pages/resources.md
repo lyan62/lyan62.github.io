@@ -1,10 +1,12 @@
 ---
-permalink: /resources/
+permalink: docs/resources/
 title:  "Resources"
 layout: single
 classes: wide
-author_profile: true
+author_profile: False
 comments: true
+sidebar:
+  nav: "docs"
 ---
 
 Here are also some learning/reading materials I collected:

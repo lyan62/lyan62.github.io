@@ -1,11 +1,12 @@
 ---
-toc: false
 title:  "Gallery"
 layout: single
 clases: wide
 permalink: /fun/gallery
 
 comments: true
+sidebar:
+  nav: "fun"
 
 tags:
   - paintings
