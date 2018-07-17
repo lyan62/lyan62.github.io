@@ -15,3 +15,4 @@ sidebar:
 ## Leetcode
 - [Leetcode Python (Shenjie's gitbook)](https://shenjie1993.gitbooks.io/leetcode-python/)
 - [GrandyYang's Leetcode all in one (in C)](https://www.cnblogs.com/grandyang/p/4606334.html)
+- [My notes on Leetcode practice](https://lyan62.github.io/leetcode/array/026)
