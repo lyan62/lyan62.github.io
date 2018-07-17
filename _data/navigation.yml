@@ -38,7 +38,8 @@ leetcode:
        url: /leetcode/array/189
      - title: "217 Contains duplicates"
        url: /leetcode/array/217
+     - title: "283 Move zeros"
+       url: /leetcode/array/283
      - title: "350 Intersection of two arrays II"
        url: /leetcode/array/217
-
 
