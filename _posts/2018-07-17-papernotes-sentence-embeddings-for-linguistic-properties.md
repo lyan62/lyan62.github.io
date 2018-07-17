@@ -7,7 +7,7 @@ date:   2018-07-17
 ---
 
 
-## Main Idea:
+# Main Idea:
 Probe linguistic properties of sentence embeddings using 3 encoders, trained in 8 ways, on 10 probing tasks.
 
 Extend **probing task** to see if the sentence embeddings contains related information:
@@ -16,13 +16,13 @@ Extend **probing task** to see if the sentence embeddings contains related infor
 	-  easy to control for biases
 	-  agnostic w.r.t encoder architecture
 
-### Motivation
+## Motivation
 - previous intropspection techinuques  depend on specifics of encoder archtectures.
 - to consider more models and tasks while ensuring using only a sentence embedding as input.
 - to provide general purpose, cross-model evaluation.
 
 
-### Experiments 
+## Experiments 
 - 10 Tasks:
 	- Overview: with single sentence embeddings inputs; large training sets for dl; with sentence length and lexical cues constraints
 	- including:
@@ -55,7 +55,7 @@ Extend **probing task** to see if the sentence embeddings contains related infor
 
 
 
-### Results
+## Results
 - Base lines: linear classifier on length; NB classifier with tfidf(uni, and bigrams), BoV-fastText for sentence representations.
 
 - Performance: 
@@ -70,7 +70,7 @@ Extend **probing task** to see if the sentence embeddings contains related infor
 		-  untrained BiLSTM already have very good performance on probing and downstream tasks. bias exists in juding modifeid compared to human.
 		-  NMT trained BiLSTM generally good. Far from human bounds on treedepth, bigram shift, somo, and coodInv.
 
-### Conclusion
+## Conclusion
 - Relations between probing and downstream tasks: 
 	- with WC positively related in  all downstream tasks, while SentLen being negative correlated; semantic odd man out relates to sentence entailment test; question classification relates to most of the probing tasks.
 - Models: BoV good overall, bilstm good without training, different encoders results in different embeddings captures info with different focus.
