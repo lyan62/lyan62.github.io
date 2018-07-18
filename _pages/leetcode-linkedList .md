@@ -11,7 +11,7 @@ sidebar:
 
 
 ---------------------------
-Definition of singly-linked list.  
+# Definition of singly-linked list.  
 Each node contains two fields: val, next.
 ```python
 class ListNode(object):
@@ -20,7 +20,7 @@ class ListNode(object):
         self.next = None
 ```
 ----------------------------------
-
+# Operations:  insertion, deletion & search
 Insertion & Deletion cost $$O(1)$$ time. While search costs $$O(n)$$ time, where $$n$$ is the length of the list.
 Basic operations of linked list can be defined with functions:  
 ```python
@@ -37,7 +37,7 @@ def delete_after(node):
     node.next = node.next.next
 ``` 
 ------------------------------------
-Tricks:
+# Tricks:
 - 通常关于链表的题目，采用两个指针（two iterators）:  
     - 一前一后
     - 一快一慢
@@ -47,9 +47,9 @@ Tricks:
     dummy.next = head
     ```
 ------------------------------------
-
+# Problems
 Problems listed in the order of difficulty. * denotes in top interview questions.
 
-# Easy
+## Easy
 - 019 019 Remove Nth Node From End of List * ([note](https://lyan62.github.io/leetcode/linkedlist/019))
 - 237 Delete Node in a Linked List * ([note](https://lyan62.github.io/leetcode/linkedlist/237))
