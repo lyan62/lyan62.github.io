@@ -55,6 +55,8 @@ leetcode:
    - title: "String"
      url: /leetcode/string/
      children:
+     - title: "007 Reverse integer"
+       url: /leetcode/string/007
      - title: "344 Reverse string"
        url: /leetcode/string/344
 
