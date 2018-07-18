@@ -1,5 +1,5 @@
 ---
-permalink: /leetcode/string/019
+permalink: /leetcode/linkedlist/019
 layout: single
 classes: wide
 title:  "019 Remove Nth Node From End of List"

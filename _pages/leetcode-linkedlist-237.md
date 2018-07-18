@@ -1,5 +1,5 @@
 ---
-permalink: /leetcode/string/237
+permalink: /leetcode/linkedlist/237
 layout: single
 classes: wide
 title:  "237 Delete Node in a Linked List"
