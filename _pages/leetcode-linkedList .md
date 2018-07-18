@@ -52,4 +52,5 @@ Problems listed in the order of difficulty. * denotes in top interview questions
 
 ## Easy
 - 019 019 Remove Nth Node From End of List * ([note](https://lyan62.github.io/leetcode/linkedlist/019))
+- 206 Reverse Linked List * ([note](https://lyan62.github.io/leetcode/linkedlist/206))
 - 237 Delete Node in a Linked List * ([note](https://lyan62.github.io/leetcode/linkedlist/237))
