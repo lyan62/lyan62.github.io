@@ -47,6 +47,8 @@ def delete_after(node):
     dummy.next = head
     ```
 ------------------------------------
+
+
 # Problems
 Problems listed in the order of difficulty. * denotes in top interview questions.
 
