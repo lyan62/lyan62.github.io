@@ -13,6 +13,7 @@ Problems listed in the order of difficulty. * denotes in top interview questions
 
 # Easy
 - 007 Reverse Integer * ([note](https://lyan62.github.io/leetcode/string/007))
+- 008 String to Integer (atoi) * ([note](https://lyan62.github.io/leetcode/string/009))
 - 125 Valid Palindrome * ([note](https://lyan62.github.io/leetcode/string/125))
 - 242 Valid Anagram * ([note](https://lyan62.github.io/leetcode/string/242))
 - 344 Reverse String * ([note](https://lyan62.github.io/leetcode/string/344))
