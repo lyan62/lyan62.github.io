@@ -13,7 +13,8 @@ Problems listed in the order of difficulty. * denotes in top interview questions
 
 # Easy
 - 007 Reverse Integer * ([note](https://lyan62.github.io/leetcode/string/007))
-- 008 String to Integer (atoi) * ([note](https://lyan62.github.io/leetcode/string/009))
+- 008 String to Integer (atoi) * ([note](https://lyan62.github.io/leetcode/string/008))
+- 014 Longest Common Prefix * ([note](https://lyan62.github.io/leetcode/string/014))
 - 028 Implement strStr() * ([note](https://lyan62.github.io/leetcode/string/028))
 - 038 Count and Say * ([note](https://lyan62.github.io/leetcode/string/038))
 - 125 Valid Palindrome * ([note](https://lyan62.github.io/leetcode/string/125))

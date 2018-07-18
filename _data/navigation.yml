@@ -59,6 +59,8 @@ leetcode:
        url: /leetcode/string/007
      - title: "008 String to Integer (atoi)"
        url: /leetcode/string/008
+     - title: "014 Longest Common Prefix"
+       url: /leetcode/string/008
      - title: "028 Implement strStr()"
        url: /leetcode/string/028
      - title: "038 Count and Say"
