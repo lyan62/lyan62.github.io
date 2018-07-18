@@ -59,4 +59,6 @@ leetcode:
        url: /leetcode/string/007
      - title: "344 Reverse string"
        url: /leetcode/string/344
+     - title: "387 First Unique Character in a String"
+       url: /leetcode/string/387
 
