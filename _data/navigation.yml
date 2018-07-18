@@ -57,6 +57,8 @@ leetcode:
      children:
      - title: "007 Reverse integer"
        url: /leetcode/string/007
+     - title: "242 Valid anagram"
+       url: /leetcode/string/242
      - title: "344 Reverse string"
        url: /leetcode/string/344
      - title: "387 First Unique Character in a String"
