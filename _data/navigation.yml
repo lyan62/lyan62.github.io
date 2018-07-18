@@ -83,6 +83,8 @@ leetcode:
        url: /leetcode/linkedlist/021
      - title:  "092 Reverse a single sublist"
        url: /leetcode/linkedlist/092
+     - title:  "141 Linked List Cycle"
+       url: /leetcode/linkedlist/141
      - title:  "206 Reverse Linked List"
        url: /leetcode/linkedlist/206
      - title:  "234 Palindrome Linked List"

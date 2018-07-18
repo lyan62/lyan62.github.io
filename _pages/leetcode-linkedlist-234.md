@@ -2,7 +2,7 @@
 permalink: /leetcode/linkedlist/234
 layout: single
 classes: wide
-tags: [leetcode, array]
+tags: [leetcode, linkedlist, easy]
 title:  "234 Palindrome Linked List"
 date:   2018-07-18
 sidebar:

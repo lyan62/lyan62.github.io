@@ -3,7 +3,7 @@ permalink: /leetcode/linkedlist/206
 layout: single
 classes: wide
 title:  "206 Reverse Linked List"
-tags: [leetcode, array]
+tags: [leetcode, linkedlist, easy]
 date:   2018-07-18
 sidebar:
   nav: "leetcode"

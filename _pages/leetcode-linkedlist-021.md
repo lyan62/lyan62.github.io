@@ -3,7 +3,7 @@ permalink: /leetcode/linkedlist/021
 layout: single
 classes: wide
 title:  "021 Merge Two Sorted Lists"
-tags: [leetcode, array]
+tags: [leetcode, linkedlist, easy]
 date:   2018-07-18
 sidebar:
   nav: "leetcode"

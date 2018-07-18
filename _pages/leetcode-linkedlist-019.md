@@ -3,7 +3,7 @@ permalink: /leetcode/linkedlist/019
 layout: single
 classes: wide
 title:  "019 Remove Nth Node From End of List"
-tags: [leetcode, array]
+tags: [leetcode, linkedlist, easy]
 date:   2018-07-18
 sidebar:
   nav: "leetcode"

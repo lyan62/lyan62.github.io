@@ -3,7 +3,7 @@ permalink: /leetcode/linkedlist/092
 layout: single
 classes: wide
 title:  "092 Reverse a single sublist"
-tags: [leetcode, array]
+tags: [leetcode, linkedlist, medium]
 date:   2018-07-18
 sidebar:
   nav: "leetcode"
