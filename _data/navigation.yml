@@ -57,6 +57,8 @@ leetcode:
      children:
      - title: "007 Reverse integer"
        url: /leetcode/string/007
+     - title: "008 String to Integer (atoi)"
+       url: /leetcode/string/008
      - title: "125 Valid palindrome"
        url: /leetcode/string/125
      - title: "242 Valid anagram"
@@ -65,6 +67,5 @@ leetcode:
        url: /leetcode/string/344
      - title: "387 First Unique Character in a String"
        url: /leetcode/string/387
-     - title: "008 String to Integer (atoi)"
-       url: /leetcode/string/008
+
 
