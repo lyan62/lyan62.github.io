@@ -85,6 +85,8 @@ leetcode:
        url: /leetcode/linkedlist/092
      - title:  "206 Reverse Linked List"
        url: /leetcode/linkedlist/206
+     - title:  "234 Palindrome Linked List"
+       url: /leetcode/linkedlist/234
      - title:  "237 Delete Node in a Linked List"
        url: /leetcode/linkedlist/237
 
