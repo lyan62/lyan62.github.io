@@ -77,8 +77,10 @@ leetcode:
    - title: "Linked List"
      url: /leetcode/linkedlist/
      children:
+     - title:  "019 Remove Nth Node From End of List"
+       url: /leetcode/linkedlist/019
      - title:  "237 Delete Node in a Linked List"
-     url: /leetcode/linkedlist/237
+       url: /leetcode/linkedlist/237
 
 
 

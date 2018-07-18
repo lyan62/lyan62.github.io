@@ -38,13 +38,18 @@ def delete_after(node):
 ``` 
 ------------------------------------
 Tricks:
-通常关于链表的题目，采用两个指针（two iterators）:  
-- 一前一后
-- 一快一慢
-
+- 通常关于链表的题目，采用两个指针（two iterators）:  
+    - 一前一后
+    - 一快一慢
+- 使用dummy head
+    ```python
+    dummy = ListNode(0)
+    dummy.next = head
+    ```
 ------------------------------------
 
 Problems listed in the order of difficulty. * denotes in top interview questions.
 
 # Easy
+- 019 019 Remove Nth Node From End of List * ([note](https://lyan62.github.io/leetcode/linkedlist/019))
 - 237 Delete Node in a Linked List * ([note](https://lyan62.github.io/leetcode/linkedlist/237))
