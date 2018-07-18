@@ -12,7 +12,8 @@ sidebar:
 Problems listed in the order of difficulty. * denotes in top interview questions.
 
 # Easy
-- 007 Reverse integer * ([note](https://lyan62.github.io/leetcode/string/007))
+- 007 Reverse Integer * ([note](https://lyan62.github.io/leetcode/string/007))
+- 125 Valid Palindrome * ([note](https://lyan62.github.io/leetcode/string/125))
 - 242 Valid Anagram * ([note](https://lyan62.github.io/leetcode/string/242))
-- 344 Reverse string * ([note](https://lyan62.github.io/leetcode/string/344))
+- 344 Reverse String * ([note](https://lyan62.github.io/leetcode/string/344))
 - 387 First Unique Character in a String * ([note](https://lyan62.github.io/leetcode/string/387))
