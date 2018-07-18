@@ -59,3 +59,4 @@ Problems listed in the order of difficulty. * denotes in top interview questions
 
 ## Medium
 - 092 Reverse a single sublist * ([note](https://lyan62.github.io/leetcode/linkedlist/092))
+- 021 Merge Two Sorted Lists * ([note](https://lyan62.github.io/leetcode/linkedlist/021))
