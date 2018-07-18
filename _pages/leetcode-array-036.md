@@ -1,5 +1,5 @@
 ---
-permalink: /leetcode/array/001
+permalink: /leetcode/array/036
 layout: single
 classes: wide
 title:  "036 Validate sudoku"
