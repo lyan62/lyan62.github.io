@@ -18,7 +18,7 @@ docs:
      url: /collections
      children:
      - title: "Leetcode notes"
-       url: /leetcode/array/
+       url: /leetcode/
    - title: "Notebooks"
      children:
      - title: "Learning Pyspark"
