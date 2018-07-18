@@ -99,6 +99,8 @@ With reference to [juggling algorithm](https://www.geeksforgeeks.org/array-rotat
 3. else: 将array分为长度为k的chunk
 4. 将后面几个chunk的数依次rotate
 > e.g. input = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12], k = 3, gcd = 3
+
+
 ```python
 def leftRotate(nums, k):
     for i in range(gcd(k,len(nums))): 
