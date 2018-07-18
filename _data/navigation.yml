@@ -74,4 +74,11 @@ leetcode:
      - title: "387 First Unique Character in a String"
        url: /leetcode/string/387
 
+   - title: "Linked List"
+     url: /leetcode/linkedlist/
+     children:
+     - title:  "237 Delete Node in a Linked List"
+     url: /leetcode/linkedlist/237
+
+
 
