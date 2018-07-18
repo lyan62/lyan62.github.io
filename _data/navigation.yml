@@ -79,6 +79,8 @@ leetcode:
      children:
      - title:  "019 Remove Nth Node From End of List"
        url: /leetcode/linkedlist/019
+     - title:  "092 Reverse a single sublist"
+       url: /leetcode/linkedlist/092
      - title:  "206 Reverse Linked List"
        url: /leetcode/linkedlist/206
      - title:  "237 Delete Node in a Linked List"
