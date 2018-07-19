@@ -15,7 +15,7 @@ sidebar:
 
 The class whose properties are inherited by another class is called the Base class. The class which inherits the properties is called the Derived class. For example, the Daughter class (derived) can be inherited from the Mother class (base).
 
-The derived class **inherits all feature from the base class, and can have its own additional features.**
+The derived class **inherits all feature from the base class, and can have its own additional features.**  
 ![inheritance](https://api.sololearn.com/DownloadFile?id=2465)
 
 
