@@ -30,7 +30,7 @@ Define a C++ function using the following syntax:
 Being able to generate random numbers is helpful in a number of situations, including when creating games, statistical modeling programs, and similar end products. 
 
 In the C++ standard library, you can access a pseudo random number generator function that's called **rand()**. When used, we are required to include the header **<cstdlib>.**
-```
+```cpp
 #include <iostream>
 #include <cstdlib>
 using namespace std;
@@ -45,7 +45,7 @@ int main() {
 The srand() function is used to generate truly random numbers.
 
 This function allows to specify a seed value as its parameter, which is used for the rand() function's algorithm.
-```
+```cpp
 int main () {
   srand(98);
 
@@ -88,7 +88,7 @@ A recursive function in C++ is a function that calls itself.
 
 To avoid having the recursion run indefinitely, you must include a termination condition.
 
-```
+```cpp
 // calculate factorial 
 int factorial(int n) {
   if (n==1) {
@@ -113,7 +113,7 @@ An array can also be passed to a function as an argument.
 The parameter should be defined as an array using **square brackets[]**, when declaring the function. 
 
 For example:
-```
+```cpp
 void printArray(int arr[], int size) {
   for(int x=0; x<size; x++) {
     cout <<arr[x];
@@ -122,7 +122,7 @@ void printArray(int arr[], int size) {
 ```
 
 We can use our function in main(), and call it for our sample array:
-```
+```cpp
 void printArray(int arr[], int size) {
   for(int x=0; x<size; x++) {
     cout <<arr[x]<< endl;
@@ -156,7 +156,7 @@ By default, arguments in C++ are passed by value.
 When passed by value, a copy of the argument is passed to the function.
 
 Example:
-```
+```cpp
 void myFunc(int x) {
   x = 100;
 }
@@ -174,7 +174,7 @@ Because a copy of the argument is passed to the function, the original argument 
 
 Pass-by-reference **copies an argument's address** into the formal parameter. Inside the function, the address is used to access the actual argument used in the call. This means that changes made to the parameter affect the argument.
 To pass the value by reference, argument pointers are passed to the functions just like any other value.
-```
+```cpp
 void myFunc(int *x) {
   *x = 100;
 }
