@@ -6,7 +6,7 @@ title:  "C++ Notes"
 tags: [C++ notes]
 date:   2018-07-17
 sidebar:
-  nav: "leetcode"
+  nav: "cpp"
 ---
 
 
