@@ -438,7 +438,7 @@ int main() {
   
 ### File Opening Modes
 
-An optional **second parameter** of the open function defines the mode in which the file is opened. This list shows the supported modes.
+An optional **second parameter** of the open function defines the mode in which the file is opened. This list shows the supported modes.  
 ![](https://api.sololearn.com/DownloadFile?id=3291)
 All these flags can be combined using the bitwise operator OR (|).
 For example, to open a file in write mode and truncate it, in case it already exists, use the following syntax:
