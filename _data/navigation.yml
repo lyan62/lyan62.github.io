@@ -54,6 +54,8 @@ leetcode:
        url: /leetcode/array/009
      - title: "026 Remove duplicates from sorted array"
        url: /leetcode/array/026
+     - title: "027 Remove Element"
+       url: /leetcode/array/027
      - title: "036 Validate sudoku"
        url: /leetcode/array/036
      - title: "048 Rotate image"

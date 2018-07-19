@@ -16,6 +16,7 @@ Problems listed in the order of difficulty. * denotes in top interview questions
 - 009 Palindrome Number ([note](https://lyan62.github.io/leetcode/array/009))
 - 036 Validate sudoku * ([note](https://lyan62.github.io/leetcode/array/036))
 - 026 Remove duplicates from sorted array * ([note](https://lyan62.github.io/leetcode/array/026))
+- 027 Remove Element ([note](https://lyan62.github.io/leetcode/array/027))
 - 048 Rotate image * ([note](https://lyan62.github.io/leetcode/array/048))
 - 066 Plus one * ([note](https://lyan62.github.io/leetcode/array/066))
 - 122 Best Time to Buy and Sell Stock II *(([note](https://lyan62.github.io/leetcode/array/122))

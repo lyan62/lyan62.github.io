@@ -14,11 +14,12 @@ Ordered solved problems with tags. * denotes in top interview questions.
 
 - [001](https://lyan62.github.io/leetcode/array/001) Two sum * ([array](https://lyan62.github.io/leetcode/array/))
 - [007](https://lyan62.github.io/leetcode/string/007) Reverse Integer * ([string](https://lyan62.github.io/leetcode/string/))
-- [009](https://lyan62.github.io/leetcode/array/009) Palindrome Number ([array](https://lyan62.github.io/leetcode/array/)) 
 - [008](https://lyan62.github.io/leetcode/string/008) String to Integer (atoi) * ([string](https://lyan62.github.io/leetcode/string/)) 
+- [009](https://lyan62.github.io/leetcode/array/009) Palindrome Number ([array](https://lyan62.github.io/leetcode/array/)) 
 - [014](https://lyan62.github.io/leetcode/string/014) Longest Common Prefix * ([string](https://lyan62.github.io/leetcode/string/)) 
 - [019](https://lyan62.github.io/leetcode/linkedlist/019) 019 Remove Nth Node From End of List * ([linkedlist](https://lyan62.github.io/leetcode/linkedlist/))
 - [021](https://lyan62.github.io/leetcode/linkedlist/021) Merge Two Sorted Lists * ([linkedlist](https://lyan62.github.io/leetcode/linkedlist/))
+- [027](https://lyan62.github.io/leetcode/array/027) Remove Element ([array](https://lyan62.github.io/leetcode/array/))
 - [028](https://lyan62.github.io/leetcode/string/028) Implement strStr() * ([string](https://lyan62.github.io/leetcode/string/)) 
 - [036](https://lyan62.github.io/leetcode/array/036) Validate sudoku * ([array](https://lyan62.github.io/leetcode/array/)) 
 - [038](https://lyan62.github.io/leetcode/string/038) Count and Say * ([string](https://lyan62.github.io/leetcode/string/)) 
