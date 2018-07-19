@@ -209,8 +209,8 @@ Note the brackets in the syntax.
 Dynamic memory allocation is useful in many situations, such as when your program depends on input. As an example, when your program needs to read an image file, it doesn't know in advance the size of the image file and the memory necessary to store the image.
 
 ## Sizeof()
-![size of variables](https://api.sololearn.com/DownloadFile?id=2460)
-The sizeof operator can be used to get a variable or data type's size, in bytes.
+![size of variables](https://api.sololearn.com/DownloadFile?id=2460)  
+The **sizeof() operator** can be used to get a variable or data type's size, in bytes.
 Syntax: sizeof (data type)
 e.g.
 ```c
