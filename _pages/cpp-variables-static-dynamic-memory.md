@@ -27,7 +27,7 @@ A floating point type variable can hold a real number, such as 420.0, -3.33, or 
 There are three different floating point data types: **float, double, and long double.**
 
 In most modern architectures, a float is 4 bytes, a double is 8, and a long double can be equivalent to a double (8 bytes), or 16 bytes.
-```cython
+```cpp
 double temp = 4.21;
 ```
 
