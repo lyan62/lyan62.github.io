@@ -19,10 +19,29 @@ docs:
      children:
      - title: "Leetcode notes"
        url: /leetcode/
+     - title: "C++ notes"
+       url: /cpp/
    - title: "Notebooks"
      children:
      - title: "Learning Pyspark"
        url: /collections/notebooks/learning-pyspark-rdd
+
+# sidebar for cpp notes
+cpp:
+   - title: "C++ notes"
+     url: /cpp/
+     children:
+     - title: "Variables"
+       url: /cpp/variables
+     - title: "Functions"
+       url: /cpp/functions
+     - title: "Class and Objects"
+       url: /cpp/class
+     - title: "Inheritance and Polymorphism"
+       url: /cpp/inheritance
+     - title: "Templates, Exceptions and Files"
+       url: /cpp/templates
+
 
 # sidebar for leetcode practice
 leetcode:
