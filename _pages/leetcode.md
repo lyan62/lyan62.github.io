@@ -21,6 +21,7 @@ Ordered solved problems with tags. * denotes in top interview questions.
 - [021](https://lyan62.github.io/leetcode/linkedlist/021) Merge Two Sorted Lists * ([linkedlist](https://lyan62.github.io/leetcode/linkedlist/))
 - [027](https://lyan62.github.io/leetcode/array/027) Remove Element ([array](https://lyan62.github.io/leetcode/array/))
 - [028](https://lyan62.github.io/leetcode/string/028) Implement strStr() * ([string](https://lyan62.github.io/leetcode/string/)) 
+- [035](https://lyan62.github.io/leetcode/array/035) Search Insert Position  ([array](https://lyan62.github.io/leetcode/array/))
 - [036](https://lyan62.github.io/leetcode/array/036) Validate sudoku * ([array](https://lyan62.github.io/leetcode/array/)) 
 - [038](https://lyan62.github.io/leetcode/string/038) Count and Say * ([string](https://lyan62.github.io/leetcode/string/)) 
 - [026](https://lyan62.github.io/leetcode/array/026) Remove duplicates from sorted array * ([array](https://lyan62.github.io/leetcode/array/))
