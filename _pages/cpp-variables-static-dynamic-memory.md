@@ -11,8 +11,6 @@ sidebar:
 
 
 
-# Variabeles
------------------------------------
 ## Signed and unsigned
 Several of the basic types, including integers, can be modified using one or more of these type modifiers: 
 - signed: A signed integer can hold **both negative and positive **numbers.
@@ -29,7 +27,7 @@ A floating point type variable can hold a real number, such as 420.0, -3.33, or 
 There are three different floating point data types: **float, double, and long double.**
 
 In most modern architectures, a float is 4 bytes, a double is 8, and a long double can be equivalent to a double (8 bytes), or 16 bytes.
-```python
+```cython
 double temp = 4.21;
 ```
 
@@ -46,7 +44,7 @@ An array as a collection of variables that are all of the same type.
 
 When declaring an array, specify its element types, **as well as the number of elements it will hold**. 
 
-```python
+```cython
 int a[5];
 int b[5] = {11, 45, 62, 70, 88};
 ```
@@ -70,7 +68,7 @@ A pointer is a variable, and like any other variable, it must be declared before
 
 Following are valid pointer declarations:
 
-```
+```cython
 int *ip;  // pointer to an integer
 double *dp;   // pointer to a double
 float *fp;  // pointer to a float
@@ -83,7 +81,7 @@ The asterisk sign can be placed next to the data type, or the variable name, or 
 ### Using Pointers
 
 Here, we assign the address of a variable to the pointer.
-```
+```cython
 int score = 5;
 int *scorePtr; //定义一个指针
 scorePtr = &score; // 该指针指向score这个变量所在地址: scorePtr = address of score
@@ -103,7 +101,7 @@ There are two operators for pointers:
 - Contents-of (or dereference) operator (*): returns the value of the variable located at the address specified by its operand.
 
 For example:
-```
+```cython
 int var = 50;
 int  *p;
 p = &var;
@@ -134,7 +132,7 @@ In a C++ program, memory is divided into two parts:
 Many times, you are not aware in advance how much memory you will need to store particular information in a defined variable and the size of required memory can be determined at run time.
 
 You can allocate memory at run time within the heap for the variable of a given type using the **new **operator, which returns the address of the space allocated.
-```
+```cython
 new int; //用于分配地址，是地址，地址， 地址。
 ```
 
@@ -145,7 +143,7 @@ This allocates the memory size necessary for* storing an integer on the **heap**
 The **allocated address can be stored in a pointer**, which can then be dereferenced to access the variable.
 
 Example:
-```
+```cython
 int *p = new int;  //assign memory on the heap 
 *p = 5; //dereference
 ```
@@ -156,13 +154,13 @@ The pointer *p is stored in the stack* as a local variable, and holds the heap's
 
 For local variables on the stack, managing memory is carried out automatically.
 On the heap, it's necessary to manually handle the dynamically allocated memory, and use the delete operator to free up the memory when it's no longer needed.
-```
+```cython
 delete pointer; // free memory on the heap after use
 ```
 This statement releases the memory pointed to by pointer.
 
 For example:
-```
+```cython
 int *p = new int; // request memory
 *p = 5; // store value
 
@@ -178,7 +176,7 @@ The delete operator frees up the memory allocated for the variable, but does not
 （free 了heap的内存，但是包含原地址的pointer并没有被delete）
 
 For example:
-```
+```cython
 int *p = new int; // request memory
 *p = 5; // store value
 
@@ -194,14 +192,14 @@ The NULL pointer is a constant with a value of zero that is defined in several o
 It's a good practice to assign NULL to a pointer variable when you declare it, in case you do not have exact address to be assigned. 
 
 A pointer assigned NULL is called a **null pointer**. For example: 
-```
+```cython
 int *ptr = NULL;
 ```
 
 ### Dynamic memory  for arrays
   
 For example: 
-```
+```cython
 int *p = NULL; // Pointer initialized with null
 p = new int[20]; // Request memory
 delete [] p; // Delete array pointed to by p
@@ -215,7 +213,7 @@ Dynamic memory allocation is useful in many situations, such as when your progra
 The sizeof operator can be used to get a variable or data type's size, in bytes.
 Syntax: sizeof (data type)
 e.g.
-```
+```cython
 cout << "char: " << sizeof(char) << endl;
 cout << "int: " << sizeof(int) << endl;
 cout << "float: " << sizeof(float) << endl;
@@ -236,7 +234,7 @@ var: 4
 
 The C++ **sizeof()** operator is also used to determine the size of an array.
 For example:
-```
+```cython
 double myArr[10];
 cout << sizeof(myArr) << endl; 
 //Outputs 80
@@ -246,7 +244,7 @@ Explanation: On our machine, **double takes 8 bytes**. The array stores 10 doubl
 In addition, divide the total number of bytes in the array by the number of bytes in a single element to learn how many elements you have in the array.
 
 For example:
-```
+```cython
 int numbers[100];
 cout << sizeof(numbers) / sizeof(numbers[0]);
 // Outputs 100
