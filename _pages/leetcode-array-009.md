@@ -4,7 +4,7 @@ layout: single
 classes: wide
 title:  "009 Palindrome Number"
 tags: [leetcode, array, easy]
-date:   2018-07-17
+date:   2018-07-19
 sidebar:
   nav: "leetcode"
 ---
