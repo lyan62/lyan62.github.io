@@ -50,6 +50,8 @@ leetcode:
      children:
      - title: "001 Two sum"
        url: /leetcode/array/001
+     - title: "009 Palindrome Number"
+       url: /leetcode/array/009
      - title: "026 Remove duplicates from sorted array"
        url: /leetcode/array/026
      - title: "036 Validate sudoku"

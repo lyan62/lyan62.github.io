@@ -13,6 +13,7 @@ Problems listed in the order of difficulty. * denotes in top interview questions
 
 # Easy
 - 001 Two sum * ([note](https://lyan62.github.io/leetcode/array/001))
+- 009 Palindrome Number ([note](https://lyan62.github.io/leetcode/array/009))
 - 036 Validate sudoku * ([note](https://lyan62.github.io/leetcode/array/036))
 - 026 Remove duplicates from sorted array * ([note](https://lyan62.github.io/leetcode/array/026))
 - 048 Rotate image * ([note](https://lyan62.github.io/leetcode/array/048))

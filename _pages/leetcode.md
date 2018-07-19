@@ -13,7 +13,8 @@ Ordered solved problems with tags. * denotes in top interview questions.
 
 
 - [001](https://lyan62.github.io/leetcode/array/001) Two sum * ([array](https://lyan62.github.io/leetcode/array/))
-- [007](https://lyan62.github.io/leetcode/string/007) Reverse Integer * ([string](https://lyan62.github.io/leetcode/string/)) 
+- [007](https://lyan62.github.io/leetcode/string/007) Reverse Integer * ([string](https://lyan62.github.io/leetcode/string/))
+- [009](https://lyan62.github.io/leetcode/array/009) Palindrome Number ([array](https://lyan62.github.io/leetcode/array/)) 
 - [008](https://lyan62.github.io/leetcode/string/008) String to Integer (atoi) * ([string](https://lyan62.github.io/leetcode/string/)) 
 - [014](https://lyan62.github.io/leetcode/string/014) Longest Common Prefix * ([string](https://lyan62.github.io/leetcode/string/)) 
 - [019](https://lyan62.github.io/leetcode/linkedlist/019) 019 Remove Nth Node From End of List * ([linkedlist](https://lyan62.github.io/leetcode/linkedlist/))
