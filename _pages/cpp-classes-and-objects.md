@@ -33,7 +33,7 @@ In the real world, each object behaves in its own way. The car moves, the phone 
 
 So, the following three dimensions describe any object in object oriented programming: **identity**, **attributes**, **behavior**.
 
-> An object is self-contained, with its own identity. It is separate from other objects. Each object has its own attributes, which describe its current state. Each exhibits its own behavior, which demonstrates what they can do.
+> An object is self-contained, with its own identity. It is separate from other objects. Each object has its own attributes, which describe its current state. Each exhibits its own behavior, which demonstrates what they can do.  
 > ![objects](https://api.sololearn.com/DownloadFile?id=2427)
 
 ---------------------------------------------------------------------------
@@ -114,7 +114,7 @@ A good real-world example is a book: When you hear the term book, you don't know
 
 The concept of abstraction is that we focus on essential qualities, rather than the specific characteristics of one particular example.
 
->Abstraction allows us to write a single bank account class, and then create different objects based on the class, for individual bank accounts, rather than creating a separate class for each bank account.
+>Abstraction allows us to write a single bank account class, and then create different objects based on the class, for individual bank accounts, rather than creating a separate class for each bank account.  
 >![](https://api.sololearn.com/DownloadFile?id=2464)
 
 ----------------------------------------
@@ -421,7 +421,7 @@ The header declares "what" a class (or whatever is being implemented) will do, w
 ## Destructors
 
 > Recall **constructors**:    
-> They're special member functions that are automatically called when an object is created.
+> They're special member functions that are automatically called when an object is created.  
 
 Destructors are special functions, as well. They're called when an object is destroyed or deleted.
 
