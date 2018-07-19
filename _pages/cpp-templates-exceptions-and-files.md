@@ -9,7 +9,7 @@ sidebar:
   nav: "cpp"
 ---
 
-
+---------------------------------------------------------------
 # Function Templates
 
 Functions and classes help to make programs easier to write, safer, and more maintainable. 

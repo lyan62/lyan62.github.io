@@ -9,7 +9,7 @@ sidebar:
   nav: "cpp"
 ---
 
-
+-------------------------------------
 # Inheritance
 **Inheritance** is one of the most important concepts of object-oriented programming (OOP). Inheritance allows us to **define a class based on another class**. This facilitates greater ease in creating and maintaining an application. 
 
