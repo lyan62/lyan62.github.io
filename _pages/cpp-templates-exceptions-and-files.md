@@ -17,7 +17,7 @@ Functions and classes help to make programs easier to write, safer, and more mai
 However, while functions and classes do have all of those advantages, in certain cases they can also be somewhat limited by C++'s requirement that you specify types for all of your parameters.
 
 For example, you might want to write a function that calculates the sum of two numbers, similar to this:
-```
+```cpp
 int sum(int a, int b) {
   return a+b;
 }
@@ -31,7 +31,7 @@ int main () {
 The function works as expected, but is limited **solely to integers**.
 
 It becomes necessary to write a new function for each new type, such as doubles.
-```
+```cpp
 double sum(double a, double b) {
   return a+b;
 }
@@ -42,14 +42,14 @@ double sum(double a, double b) {
 With function templates, the basic idea is to avoid the necessity of specifying an exact type for each variable. Instead, C++ provides us with the capability of defining functions using **placeholder** types, called **template type parameters**. 
 
 To define a function template, use the keyword template, followed by the template type definition:
-```
+```cpp
 template <class T> 
 ```
 We named our template **type T**, which is a generic data type.
 
 By using the generic data type T:
 
-```
+```cpp
 template <class T>
 T sum(T a, T b) {
   return a+b;
@@ -77,12 +77,12 @@ Enhanced safety is another advantage in using template functions, since it's not
 Function templates also make it possible to work with **multiple generic data types**. Define the data types using a comma-separated list.
 
 Create a function that compares arguments of varying data types (an int and a double), and prints the smaller one.
-```
+```cpp
 template <class T, class U>
 ```
 This template declares **two different generic data types**,** T **and **U**.
 
-```
+```cpp
 template <class T, class U>
 T smaller(T a, U b) {
   return (a < b ? a : b);
@@ -108,7 +108,7 @@ The output converts to an **integer**, because we specified the function templat
 Just as we can define** function templates**, we can also define **class templates**, **allowing classes to have members that use template parameters as types**.
 
 The same syntax is used to define the class template:
-```
+```cpp
 template <class T>
 class MyClass {
 
@@ -116,7 +116,7 @@ class MyClass {
 ```
 
 Create a class** Pair**, that will be holding a pair of values of a generic type.
-```
+```cpp
 template <class T>
 class Pair {
  private:
@@ -135,7 +135,7 @@ A specific syntax is required in case you *define your member functions outside 
 You need to **specify the generic type in angle brackets after the class name**. 
 
 For example, to have a member function bigger() defined outside of the class, the following syntax is used:
-```
+```cpp
 template <class T>
 class Pair {
  private:
@@ -157,14 +157,14 @@ T Pair<T>::bigger() {
 To create objects of the template class for different types, specify the data type in angle brackets, as we did when defining the function outside of the class.
 
 Here, we create a Pair object for integers.
-```
+```cpp
 Pair <int> obj(11, 22);
 cout << obj.bigger();
 // Outputs 22
 ```
 
 We can use the same class to create an object that stores any other type.
-```
+```cpp
 Pair <double> obj(23.43, 5.68);
 cout << obj.bigger();
 // Outputs 23.43
@@ -175,7 +175,7 @@ cout << obj.bigger();
 
 For example, we might need to handle the character data type in a different manner than we do numeric data types.
 To demonstrate how this works, we can first create a regular template.
-```
+```cpp
 template <class T>
 class MyClass {
  public:
@@ -187,7 +187,7 @@ class MyClass {
 As a regular class template, MyClass treats all of the various data types in the same way.
 
 To specify different behavior for the data type char, we would create a template specialization.
-```
+```cpp
 template <class T>
 class MyClass {
  public:
@@ -212,7 +212,7 @@ In the example above, the first class is the generic template, while the second 
 
 If necessary, your specialization can indicate a completely different behavior from the behavior of your the generic template.
 
-```
+```cpp
 int main () {
   MyClass<int> ob1(42);
   MyClass<double> ob2(5.47);
@@ -238,7 +238,7 @@ C++ exception handling is built upon three keywords: **try**, **catch**, and **t
 
 **Throw** is used to throw an exception when a problem shows up.
 For example:
-```
+```cpp
 int motherAge = 29;
 int sonAge = 36;
 if (sonAge > motherAge) {
@@ -259,7 +259,7 @@ Code that could generate an exception is surrounded with the try/catch block.
 
 You can specify **what type of exception you want to catch** by the exception declaration that appears in parentheses following the keyword catch.
 For example:
-```
+```cpp
 try {
   int motherAge = 29;
   int sonAge = 36;
@@ -283,7 +283,7 @@ Multiple catch statements may be listed to handle various exceptions in case mul
 **Exception handling** is particularly useful when dealing with **user input.**
 
 For example, for a program that requests user input of two numbers, and then outputs their division, be sure that you handle division by zero, in case your user enters 0 as the second number.
-```
+```cpp
 int main() {
   int num1;
   cout <<"Enter the first number:";
@@ -299,7 +299,7 @@ int main() {
 This program works perfectly if the user enters any number besides 0. In case of 0 the program crashes, so we need to handle that input.
 
 In the event that the second number is **equal to 0**, we need to **throw an exception**.
-```
+```cpp
 int main() {
   int num1;
   cout <<"Enter the first number:";
@@ -318,7 +318,7 @@ int main() {
 ```
 
 Now we need to **handle the thrown exception** using a try/catch block.
-```
+```cpp
 int main() {
  try {
   int num1;
@@ -342,7 +342,7 @@ int main() {
 ```
 
 >In our case, we catch exceptions of type integer only. It's possible to specify that your catch block handles any type of exception thrown in a try block. To accomplish this, add an **ellipsis (...) **between the parentheses of catch:
-```
+```cpp
 try {
   // code
 } catch(...) {
@@ -362,7 +362,7 @@ Three new data types are defined in fstream:
 - fstream: General file stream, with both ofstream and ifstream capabilities that allow it to create, read, and write information to files.
 
 To perform file processing in C++, **header files <iostream> and <fstream>** must be included in the C++ source file.
-```
+```cpp
 #include <iostream>
 #include <fstream>
 ```
@@ -393,7 +393,7 @@ If the specified file does not exist, the open function will create it automatic
 ## Closing a File
 
 When you've finished working with a file, close it using the member function **close()**.
-```
+```cpp
 #include <iostream>
 #include <fstream>
 using namespace std;
@@ -416,7 +416,7 @@ You also have the option of specifying a path for your file in the open function
 Under certain circumstances, such as when you don't have file permissions, the open function can fail. 
 
 The **is_open()** member function checks whether the file is open and ready to be accessed.
-```
+```cpp
 #include <iostream>
 #include <fstream>
 using namespace std;
@@ -442,7 +442,7 @@ An optional **second parameter** of the open function defines the mode in which 
 ![](https://api.sololearn.com/DownloadFile?id=3291)
 All these flags can be combined using the bitwise operator OR (|).
 For example, to open a file in write mode and truncate it, in case it already exists, use the following syntax:
-```
+```cpp
 ofstream outfile;
 outfile.open("file.dat", ios::out | ios::trunc );
 ```
@@ -450,7 +450,7 @@ outfile.open("file.dat", ios::out | ios::trunc );
 
 ## Reading from a File
 You can read information from a file using an ifstream or fstream object.
-```
+```cpp
 #include <iostream>
 #include <fstream>
 using namespace std;

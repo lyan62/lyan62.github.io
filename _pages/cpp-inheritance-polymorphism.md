@@ -23,7 +23,8 @@ The derived class **inherits all feature from the base class, and can have its o
 
 **Mother** and **Daughter** class:
 - Step 1: Create the two classes
-	```
+	
+	```cpp
 	class Mother
 	{
 	 public:
@@ -42,7 +43,7 @@ The derived class **inherits all feature from the base class, and can have its o
 
 - Step 2: **inherit** (derive) the Daughter from the Mother.
 
-	```
+	```cpp
 	class Daughter : public Mother
 	{
 	 public: 
@@ -57,7 +58,7 @@ In other words, all public members of the Mother class become public members of 
 
 As all public members of the Mother class become public members for the Daughter class, we can create an object of type **Daughter** and call the **sayHi()** function of the Mother class for that object:
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -97,7 +98,7 @@ A class can be derived from multiple classes by specifying the base classes in a
 There is one more access specifier - **protected**.
 
 A protected member variable or function is very similar to a private member, with one difference - **it can be accessed in the derived classes**.
-```
+```cpp
 class Mother {
  public:
   void sayHi() {
@@ -143,7 +144,7 @@ However, they are being called when an object of the derived class is created or
 To further explain this behavior, let's create a sample class that includes a constructor and a destructor:
 - Step 1: Creating an object in main results in the following output
 
-	```
+	```cpp
 	class Mother {
 	 public:
 	 Mother() 
@@ -169,7 +170,7 @@ To further explain this behavior, let's create a sample class that includes a co
 The object is created and then deleted, when the program finishes to run.
 
 - Step 2: create a Daughter class, with its own constructor and destructor, and make it a derived class of the Mother:
-	```
+	```cpp
 	class Daughter: public Mother {
 	public:
 	 Daughter()
@@ -184,7 +185,7 @@ The object is created and then deleted, when the program finishes to run.
 	```
 
 - Step 3: Now, what happens when we create a Daughter object?
-	```
+	```cpp
 	int main() {
 	  Daughter m;
 	}
@@ -226,7 +227,7 @@ C++ polymorphism means that a call to a member function will cause a different i
 Suppose you want to make a simple game, which includes different enemies: monsters, ninjas, etc. All enemies have one function in common: **an attack function**. However, they each attack in a different way. In this situation, **polymorphism allows for calling the same attack function on different objects, but resulting in different behaviors. **
 
 - Step 1:  create the Enemy class.
-	```
+	```cpp
 	class Enemy {
 	 protected: 
 	  int attackPower;
@@ -240,7 +241,7 @@ Suppose you want to make a simple game, which includes different enemies: monste
 	
 - Step 2: create classes for two different types of enemies: **Ninjas** and **Monsters**.   
 	Both of these new classes **inherit from the Enemy class**, so each has an attack power. At the same time, **each has a specific attack function**.
-	```
+	```cpp
 	class Ninja: public Enemy {
 	 public:
 	  void attack() {
@@ -257,7 +258,7 @@ Suppose you want to make a simple game, which includes different enemies: monste
 	```
 	As you can see, **their individual attack functions differ**.
 - Step 3: create our Ninja and Monster objects in main
-	```
+	```cpp
 	int main() {
 	  Ninja n;
 	  Monster m;
@@ -292,7 +293,7 @@ To be able to call the corresponding **attack()** function for each of the deriv
 Defining a **virtual function **in the base class, with a corresponding version in a derived class, allows polymorphism to use Enemy pointers to call the derived classes' functions.
 
 Every derived class will override the attack() function and have a separate implementation:
-```
+```cpp
 class Enemy {
  public:
   virtual void attack() {
@@ -318,7 +319,7 @@ A **virtual function** is a base class function that is declared using the keywo
 
 
 Now, we can use **Enemy pointers** to call the** attack()** function.
-```
+```cpp
 int main() {
   Ninja n;
   Monster m;
@@ -347,7 +348,7 @@ If **a function in the base class is virtual**, the function's implementation in
 
 
 **Virtual functions** can also have their implementation in the base class:
-```
+```cpp
 class Enemy {
  public:
   virtual void attack() {
@@ -371,7 +372,7 @@ class Monster: public Enemy {
 ```
 
 Now, when you create an Enemy pointer, and call the attack() function, the compiler will call the function, which **corresponds to the object's type**, to which the pointer points:
-```
+```cpp
 int main() {
  Ninja n;
  Monster m;
@@ -404,7 +405,7 @@ In some situations you'd want to include **a virtual function** in a base class 
 **The virtual member functions without definition are known as pure virtual functions.** They basically specify that the derived classes define that function on their own.
 
 The syntax is to replace their definition by =0 (an equal sign and a zero):
-```
+```cpp
 class Enemy {
  public:
   virtual void attack() = 0;
@@ -416,7 +417,7 @@ Every derived class inheriting from a class with a pure virtual function** must 
 
 If the pure virtual function **is not overridden** in the derived class, the code fails to compile and results in an error when you try to instantiate an object of the derived class. For example:  
 
-```
+```cpp
 class Enemy {
  public:
   virtual void attack() = 0;
@@ -440,7 +441,7 @@ class Monster: public Enemy {
 ## Abstract Classes
 Abstract classes has a pure virtual function.
 e.g.
-```
+```cpp
 class Enemy {
  public:
   virtual void attack() = 0;
@@ -454,7 +455,7 @@ These classes are called **abstract**. They are classes that can only be used as
 
 You might think that an abstract base class is useless, but it isn't. **It can be used to create pointers and take advantage of all its polymorphic abilities.** 
 For example, you could write:
-```
+```cpp
 Ninja n;
 Monster m;
 Enemy *e1 = &n;

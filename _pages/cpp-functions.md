@@ -9,8 +9,6 @@ sidebar:
   nav: "cpp"
 ---
 
-
-# Functions
 ------------------------------------
 ## Define a function
 Define a C++ function using the following syntax:

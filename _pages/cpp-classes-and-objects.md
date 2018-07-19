@@ -11,8 +11,6 @@ sidebar:
 
 
 
-# Class and Objects
-
 Object Oriented Programming (OOP) is a programming style that is intended to make thinking about programming closer to thinking about the real world.
 
 In programming, **objects are independent units, and each has its own identity**, just as objects in the real world do.
@@ -85,7 +83,7 @@ You can also define an **access specifier** for members of the class.
 A member that has been defined using the **public** keyword can be accessed from outside the class, as long as it's anywhere within the scope of the class object.
 You can also designate a class' members as **private** or **protected**. This will be discussed in greater detail later in the course.
 
-```
+```cpp
 class BankAccount {
   public:
     void sayHi() {
@@ -94,7 +92,7 @@ class BankAccount {
 };
 ```
 
-```
+```cpp
 int main() 
 {
   BankAccount test;
@@ -154,7 +152,7 @@ Access specifiers are used to set access levels to particular members of the cla
 A public member is accessible from outside the class, and anywhere within the scope of the class object.
 
 For example:
-```
+```cpp
 #include <iostream>
 #include <string>
 using namespace std;
@@ -186,7 +184,7 @@ Notice the colon (:) that follows the public keyword.
 A private member cannot be accessed, or even viewed, from outside the class; it can be accessed only from within the class.
 **A public member function may be used to access the private members**. For example:
 
-```
+```cpp
 #include <iostream>
 #include <string>
 using namespace std;
@@ -213,7 +211,7 @@ If no access specifier is defined, all members of a class are set to private by 
 
 
 We can add another public method in order to get the value of the attribute.
-```
+```cpp
 class myClass {
   public:
     void setName(string x) {
@@ -231,7 +229,7 @@ The getName() method returns the value of the private name attribute.
 
 Putting it all together:
 
-```
+```cpp
 #include <iostream>
 #include <string>
 using namespace std;
@@ -272,7 +270,7 @@ Class constructors are special member functions of a class. They are executed wh
 The constructor's **name is identical to that of the class**. It has no return type, not even void.
 (kinda like __init__() in Python)
 For example:
-```
+```cpp
 class myClass {
   public:
     myClass() {
@@ -303,7 +301,7 @@ Now, upon the creation of an object of type myClass, the constructor is automati
 Constructors can be very useful for **setting initial values for certain member variables.**
 
 A default constructor has *no parameters*. However, when needed, parameters can be added to a constructor. This makes it possible to assign an initial value to an object when it's created, as shown in the following example:
-```
+```cpp
 class myClass {
   public:
     myClass(string nm) {
@@ -323,7 +321,7 @@ We defined a constructor, that takes one parameter and assigns it to the name at
 
 
 When creating an object, you now need to pass the constructor's parameter, as you would when calling a function:
-```
+```cpp
 class myClass {
   public:
     myClass(string nm) {
@@ -359,7 +357,7 @@ It currently includes a template for our new MyClass class, with one default con
 
 - MyClass.h
 
-```
+```cpp
 #ifndef MYCLASS_H
 #define MYCLASS_H
 
@@ -378,7 +376,7 @@ The implementation of the class and its methods go into the source file (.cpp). 
 
 - MyClass.cpp
 
-```
+```cpp
 #include "MyClass.h"
 
 MyClass::MyClass()
@@ -391,7 +389,7 @@ MyClass::MyClass()
 
 The double colon in the source file (.cpp) is called the **scope resolution operator**, and it's used for the constructor definition:
 
-```
+```cpp
 #include "MyClass.h"
 
 MyClass::MyClass()
@@ -407,7 +405,7 @@ So, basically, MyClass::MyClass() refers to the MyClass() member function - or, 
 To use our classes in our main, **we need to include the header file** in the source file.(i.e.cpp) .
 
 For example, to use our newly created MyClass in main:
-```
+```cpp
 #include <iostream>
 #include "MyClass.h"
 using namespace std;
@@ -432,7 +430,7 @@ Objects are destroyed when they go out of scope, or whenever the delete expressi
 
 The name of a destructor will be **exactly the same as the class**, only prefixed with a tilde (~). A destructor can't return a value or take any parameters.
 
-```
+```cpp
 class MyClass {
   public: 
     ~MyClass() {
@@ -445,7 +443,7 @@ Destructors can be very useful for releasing resources before coming out of the 
 
 After declaring the destructor in the header file, we can write the implementation in the source file MyClass.cpp:
 即用header file来初始化， 用source file来具体实现。
-```
+```cpp
 #include "MyClass.h"
 #include <iostream>
 using namespace std;
@@ -477,7 +475,7 @@ When the program runs, it first creates the object and calls the constructor. Th
 ### #ifndef & #define
 
 We created separate header and source files for our class, which resulted in this header file.
-```
+```cpp
 #ifndef MYCLASS_H
 #define MYCLASS_H
 
@@ -504,7 +502,7 @@ This* prevents a header file from being included more than once within one file.
 Let's create a sample function called myPrint() in our class. 
 
 MyClass.h
-```
+```cpp
 class MyClass
 {
   public:
@@ -514,7 +512,7 @@ class MyClass
 ```
 
 MyClass.cpp
-```
+```cpp
 #include "MyClass.h"
 #include <iostream>
 using namespace std;
@@ -535,7 +533,7 @@ Since myPrint() is a regular member function, **it's necessary to specify its re
 
 Next, we'll create an object of the type MyClass, and call its myPrint() function using the dot (.) operator:
 
-```
+```cpp
 #include "MyClass.h"
 
 int main() {
@@ -553,7 +551,7 @@ int main() {
 We can also use a pointer to access the object's members. 
 The following pointer points to the obj object:
 
-```
+```cpp
 MyClass obj;
 MyClass *ptr = &obj;
 ```
@@ -564,7 +562,7 @@ The **type of the pointer is MyClass**, as **it points to an object of that type
 ### Selection Operator
 
 The arrow member selection operator (->) is used to **access an object's members with a pointer.**
-```
+```cpp
 MyClass obj;
 MyClass *ptr = &obj;
 ptr->myPrint();
@@ -600,7 +598,7 @@ A constant object can't call regular functions. Hence, for a constant object to 
 To specify a function as a const member, the const keyword must follow the function prototype, outside of its parameters' closing parenthesis. For const member functions that are defined outside of the class definition, **the const keyword must be used on both the function prototype and definition**. For example:
 
 MyClass.h
-```
+```cpp
 class MyClass
 {
   public:
@@ -609,7 +607,7 @@ class MyClass
 ```
 
 MyClass.cpp
-```
+```cpp
 #include "MyClass.h"
 #include <iostream>
 using namespace std;
@@ -620,7 +618,7 @@ void MyClass::myPrint() const {
 ```
 
 Now the **myPrint() function is a constant member function**. As such, it can be called by our constant object:
-```
+```cpp
 int main() {
   const MyClass obj;
   obj.myPrint();
@@ -644,7 +642,7 @@ C++ provides a handy syntax for initializing members of the class called the mem
 
 
 Consider the following class:
-```
+```cpp
 class MyClass {
   public:
    MyClass(int a, int b) {
@@ -663,7 +661,7 @@ This class has **two member variables**, regVar and constVar. It also has a cons
 Running this code returns an **error**, because one of its member variables is a constant, **which cannot be assigned a value after declaration**.
 
 In cases like this one**, a member initialization list can be used to assign values to the member variables**.
-```
+```cpp
 class MyClass {
  public:
   MyClass(int a, int b)
@@ -685,7 +683,7 @@ The initialization list eliminates the need to place explicit assignments in the
 Let's write the previous example using separate header and source files.
 
 MyClass.h
-```
+```cpp
 class MyClass {
   public:
    MyClass(int a, int b);
@@ -696,7 +694,7 @@ class MyClass {
 ```
 
 MyClass.cpp
-```
+```cpp
 MyClass::MyClass(int a, int b)
 : regVar(a), constVar(b)
 {
@@ -708,7 +706,7 @@ MyClass::MyClass(int a, int b)
 We have added cout statements in the constructor to print the values of the member variables.
 Our next step is to create an object of our class in main, and use the constructor to assign values.
 
-```
+```cpp
 #include "MyClass.h"
 
 int main() {
@@ -738,7 +736,7 @@ his sample program demonstrates composition in action. It contains **Person** an
 
 - Step1:
 Birthday:
-```
+```cpp
 class Birthday {
  public:
   Birthday(int m, int d, int y)
@@ -757,7 +755,7 @@ The class was declared in a single file for the sake of simplicity. Alternativel
 
 
 - Step2: Add a printDate() function to our Birthday class:
-```
+```cpp
 class Birthday {
  public:
   Birthday(int m, int d, int y)
@@ -778,7 +776,7 @@ class Birthday {
 
 - Step 3: Next, we can create the Person class, which includes the Birthday class.
 
-```
+```cpp
 #include <string>
 #include "Birthday.h"
 
@@ -801,7 +799,7 @@ The Person class has a name and a Birthday member, and a constructor to initiali
 
 - Step 4: Add a printInfo() function to our Person class, that prints the data of the object:
 
-```
+```cpp
 class Person {
  public:
   Person(string n, Birthday b)
@@ -823,7 +821,7 @@ Notice that we can call the **bd **member's **printDate()** function, since it's
 
 - Step 5: Now that we've defined our Birthday and Person classes, we can go to our main, create a Birthday object, and then pass it to a Person object.
 
-```
+```cpp
 int main() {
   Birthday bd(2, 21, 1985);
   Person p("David", bd);
@@ -849,7 +847,7 @@ Normally, private members of a class cannot be accessed from outside of that cla
 However, **declaring a non-member function as a friend of a class** allows it to access the class' private members. This is accomplished by **including a declaration of this external function within the class, and preceding it with the keyword friend. **
 
 In the example below, **someFunc()**, which is not a member function of the class, is a friend of MyClass and can access its private members.
-```
+```cpp
 class MyClass {
  public:
   MyClass() {
@@ -866,7 +864,7 @@ class MyClass {
 
 
 The function someFunc() is defined as a regular function outside the class. **It takes an object of type MyClass as its parameter**, and is able to access the private data members of that object.
-```
+```cpp
 class MyClass {
  public:
   MyClass() {
@@ -889,7 +887,7 @@ To make its members accessible, **the class has to declare the function as a fri
 
 
 Now we can create an object in main and call the someFunc() function:
-```
+```cpp
 int main() {
   MyClass obj;
   someFunc(obj);
@@ -913,7 +911,7 @@ Every object in C++ has access to its own address through an important pointer c
 
 Inside a member function **this** may be used to refer to the invoking object.
 
-```
+```cpp
 class MyClass {
  public:
   MyClass(int a) : var(a)
@@ -925,7 +923,7 @@ class MyClass {
 **Friend functions do not have a this pointer**, because friends are not members of a class.
 
 The **printInfo()** method offers three alternatives for printing the member variable of the class.
-```
+```cpp
 class MyClass {
  public:
   MyClass(int a) : var(a)
@@ -959,7 +957,7 @@ This chart shows the operators that can be overloaded.
 > Operators that can't be overloaded include :: | .* | . | ?:
 
 A sample class to demonstrate operator overloading:
-```
+```cpp
 class MyClass {
  public:
   int var;
@@ -977,7 +975,7 @@ We will be overloading the **+ operator**, to enable adding two objects of our c
 An overloaded operator is similar to other functions in that it **has a return type and a parameter list**.
 
 In our example we will be overloading the + operator. It will return an object of our class and take an object of our class as its parameter.
-```
+```cpp
 class MyClass {
  public:
   int var;
@@ -994,7 +992,7 @@ Overload operator "+", returns MyClass type, and takes in MyClass object as para
 
 
 We need our **+ operator** to **return a new MyClass object ** with a member variable equal to the **sum of the two objects' member variables.**
-```
+```cpp
 class MyClass {
  public:
   int var;

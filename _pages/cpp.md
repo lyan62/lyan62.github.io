@@ -10,5 +10,6 @@ sidebar:
 ---
 
 
-Took some time to review C++ on [SoloLearn](https://www.sololearn.com/Play/CPlusPlus/). 
-Packed the tutorials in notes including mainly definitions and simple examples, and added some comments.
+Took some time to review C++ on [SoloLearn](https://www.sololearn.com/Play/CPlusPlus/). The online tutorial is nice, concise, easy to understand and interactive.  
+
+Packed the tutorials in notes including mainly definitions and simple examples, and added some comments.  
