@@ -4,7 +4,7 @@ layout: single
 classes: wide
 title:  "Leetcode notes"
 tags: [leetcode]
-date:   2018-07-17
+date:   2018-07-20
 sidebar:
   nav: "leetcode"
 ---
@@ -28,10 +28,12 @@ Ordered solved problems with tags. * denotes in top interview questions.
 - [048](https://lyan62.github.io/leetcode/array/048) Rotate image * ([array](https://lyan62.github.io/leetcode/array/)) 
 - [066](https://lyan62.github.io/leetcode/array/066) Plus one * ([array](https://lyan62.github.io/leetcode/array/)) 
 - [092](https://lyan62.github.io/leetcode/linkedlist/092) Reverse a single sublist * ([linkedlist](https://lyan62.github.io/leetcode/linkedlist/))
+- [119](https://lyan62.github.io/leetcode/array/035) Pascal's Triangle II ([array](https://lyan62.github.io/leetcode/array/))
 - [122](https://lyan62.github.io/leetcode/array/122) Best Time to Buy and Sell Stock II *([array](https://lyan62.github.io/leetcode/array/))
 - [125](https://lyan62.github.io/leetcode/string/125) Valid Palindrome * ([string](https://lyan62.github.io/leetcode/string/)) 
 - [136](https://lyan62.github.io/leetcode/array/136) Single number * ([array](https://lyan62.github.io/leetcode/array/)) 
 - [141](https://lyan62.github.io/leetcode/linkedlist/141) Linked List Cycle * ([linkedlist](https://lyan62.github.io/leetcode/linkedlist/))
+- [167](https://lyan62.github.io/leetcode/array/167) Two Sum II - Input array is sorted ([array](https://lyan62.github.io/leetcode/array/))
 - [189](https://lyan62.github.io/leetcode/array/189) Rotate array * ([array](https://lyan62.github.io/leetcode/array/)) 
 - [206](https://lyan62.github.io/leetcode/linkedlist/206) Reverse Linked List * ([linkedlist](https://lyan62.github.io/leetcode/linkedlist/))
 - [217](https://lyan62.github.io/leetcode/array/217) Contains duplicates * ([array](https://lyan62.github.io/leetcode/array/)) 

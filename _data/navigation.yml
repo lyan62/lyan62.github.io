@@ -64,10 +64,14 @@ leetcode:
        url: /leetcode/array/048
      - title: "066 Plus one"
        url: /leetcode/array/066
+     - title:  "119 Pascal's Triangle II"
+       url: /leetcode/array/119
      - title: "122 Best time to buy and sell stock II"
        url: /leetcode/array/122
      - title: "136 Single number"
        url: /leetcode/array/136
+     - title: "167 Two Sum II - Input array is sorted"
+       url: /leetcode/array/167
      - title: "189 Rotate array"
        url: /leetcode/array/189
      - title: "217 Contains duplicates"
