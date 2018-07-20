@@ -24,6 +24,7 @@ Problems listed in the order of difficulty. * denotes in top interview questions
 - 122 Best Time to Buy and Sell Stock II *(([note](https://lyan62.github.io/leetcode/array/122))
 - 136 Single number * ([note](https://lyan62.github.io/leetcode/array/136)) 
 - 167 Two Sum II - Input array is sorted ([note](https://lyan62.github.io/leetcode/array/167)) 
+- 169 Major Elements ([note](https://lyan62.github.io/leetcode/array/169)) 
 - 189 Rotate array * ([note](https://lyan62.github.io/leetcode/array/136)) 
 - 217 Contains duplicates * ([note](https://lyan62.github.io/leetcode/array/217))
 - 283 Move zeros * ([note](https://lyan62.github.io/leetcode/array/283))

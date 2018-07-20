@@ -34,6 +34,7 @@ Ordered solved problems with tags. * denotes in top interview questions.
 - [136](https://lyan62.github.io/leetcode/array/136) Single number * ([array](https://lyan62.github.io/leetcode/array/)) 
 - [141](https://lyan62.github.io/leetcode/linkedlist/141) Linked List Cycle * ([linkedlist](https://lyan62.github.io/leetcode/linkedlist/))
 - [167](https://lyan62.github.io/leetcode/array/167) Two Sum II - Input array is sorted ([array](https://lyan62.github.io/leetcode/array/))
+- [169](https://lyan62.github.io/leetcode/array/169) Major Elements ([array](https://lyan62.github.io/leetcode/array/))
 - [189](https://lyan62.github.io/leetcode/array/189) Rotate array * ([array](https://lyan62.github.io/leetcode/array/)) 
 - [206](https://lyan62.github.io/leetcode/linkedlist/206) Reverse Linked List * ([linkedlist](https://lyan62.github.io/leetcode/linkedlist/))
 - [217](https://lyan62.github.io/leetcode/array/217) Contains duplicates * ([array](https://lyan62.github.io/leetcode/array/)) 

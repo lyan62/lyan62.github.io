@@ -72,6 +72,8 @@ leetcode:
        url: /leetcode/array/136
      - title: "167 Two Sum II - Input array is sorted"
        url: /leetcode/array/167
+     - title:  "16 Major Elements"
+       url: /leetcode/array/169
      - title: "189 Rotate array"
        url: /leetcode/array/189
      - title: "217 Contains duplicates"
