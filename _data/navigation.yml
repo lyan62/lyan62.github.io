@@ -123,5 +123,7 @@ leetcode:
      - title:  "237 Delete Node in a Linked List"
        url: /leetcode/linkedlist/237
 
+   - title: "Binary Tree"
+     url: /leetcode/tree
 
 
