@@ -135,7 +135,7 @@ Basically in the three blocks of codes, only ```nodes.append(root.data)``` chang
             return res
         if len(res) < depth+1:
             res.append([])
-        res[depth].append(root.val)
+        res[depth].append(root.data)
         self.dfs(root.left, depth+1, res)
         self.dfs(root.right, depth+1, res)
     ```
