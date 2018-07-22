@@ -125,14 +125,15 @@ leetcode:
 
    - title: "Binary Tree"
      url: /leetcode/tree
-   - title: "098 Validate Binary Search Tree"
-     url: /leetcode/tree/098
-   - title: "101 Symmetric Tree"
-     url: /leetcode/tree/101
-   - title: "102 Binary Tree Level Order Traversal"
-     url: /leetcode/tree/102
-   - title: "104 Maximum Depth of Binary Tree"
-     url: /leetcode/tree/104
-   - title: "108 Convert Sorted Array to Binary Search Tree"
-     url: /leetcode/tree/108
+     children:
+     - title: "098 Validate Binary Search Tree"
+       url: /leetcode/tree/098
+     - title: "101 Symmetric Tree"
+       url: /leetcode/tree/101
+     - title: "102 Binary Tree Level Order Traversal"
+       url: /leetcode/tree/102
+     - title: "104 Maximum Depth of Binary Tree"
+       url: /leetcode/tree/104
+     - title: "108 Convert Sorted Array to Binary Search Tree"
+       url: /leetcode/tree/108
 
