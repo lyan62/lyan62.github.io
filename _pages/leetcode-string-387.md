@@ -1,8 +1,8 @@
 ---
+title:  "387 First Unique Character in a String"
 permalink: /leetcode/string/387
 layout: single
 classes: wide
-title:  "387 First Unique Character in a String"
 tags: [leetcode, string, easy]
 date:   2018-07-18
 sidebar:

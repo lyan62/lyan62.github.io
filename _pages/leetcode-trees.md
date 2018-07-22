@@ -101,22 +101,56 @@ print post_order(root, []) # => ['D', 'E', 'B', 'C', 'A']
 Basically in the three blocks of codes, only ```nodes.append(root.data)``` changes its position.
 
 ### Level order
-```python
-def level_order(root, nodes):
-    queue = [root]
-    while queue:
-        n = queue.pop(0)
-        nodes.append(n.data)
-        if n.left:
-            queue.append(n.left)
-        if n.right:
-            queue.append(n.right)
-    return nodes
+- output a single array
+    ```python
+    def level_order(root, nodes):
+        queue = [root]
+        while queue:
+            n = queue.pop(0)
+            nodes.append(n.data)
+            if n.left:
+                queue.append(n.left)
+            if n.right:
+                queue.append(n.right)
+        return nodes
+    
+    print level_order(root, []) # => ['A', 'B', 'C', 'D', 'E']
+    ```
+    利用一个queue, 首先将root加入queue, 之后每次从queue中pop出一个将其左右子加入queue序列，将其data加入输出。
 
-print level_order(root, []) # => ['A', 'B', 'C', 'D', 'E']
-```
-利用一个queue, 首先将root加入queue, 之后每次从queue中pop出一个将其左右子加入queue序列，将其data加入输出。
+- output arrays level by level
+    ```python
+    def levelOrder(self, root):
+        """
+        :type root: TreeNode
+        :rtype: List[List[int]]
+        """
+        
+        res = []
+        self.dfs(root, 0, res)
+        return res
+
+    def dfs(self, root, depth, res):
+        if root == None:
+            return res
+        if len(res) < depth+1:
+            res.append([])
+        res[depth].append(root.val)
+        self.dfs(root.left, depth+1, res)
+        self.dfs(root.right, depth+1, res)
+    ```
+    使用 DFS, 用 level记录深度， root 深度为0。 (See [problem 102](https://lyan62.github.io/leetcode/tree/102))
 
 ## Tricks
 - Use recursive algorithm.
+- Use DFS and BFS
+
+## Problems
+### Easy  
+- 098 Validate Binary Search Tree * ([note](https://lyan62.github.io/leetcode/tree/098))
+- 101 Symmetric Tree * ([note](https://lyan62.github.io/leetcode/tree/101))
+- 102 Binary Tree Level Order Traversal * ([note](https://lyan62.github.io/leetcode/tree/102))
+- 104 Maximum Depth of Binary Tree * ([note](https://lyan62.github.io/leetcode/tree/104))
+- 108 Convert Sorted Array to Binary Search Tree * ([note](https://lyan62.github.io/leetcode/tree/108))
+
 
