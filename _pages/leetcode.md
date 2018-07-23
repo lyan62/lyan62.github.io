@@ -1,6 +1,6 @@
 ---
 permalink: /leetcode/
-layout: single
+layout: archive
 classes: wide
 title:  "Leetcode notes"
 tags: [leetcode]
