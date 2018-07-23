@@ -153,4 +153,12 @@ Basically in the three blocks of codes, only ```nodes.append(root.data)``` chang
 - 104 Maximum Depth of Binary Tree * ([note](https://lyan62.github.io/leetcode/tree/104))
 - 108 Convert Sorted Array to Binary Search Tree * ([note](https://lyan62.github.io/leetcode/tree/108))
 
+### Medium
+- 094 Binary Tree Inorder Traversal * ([note](https://lyan62.github.io/leetcode/tree/094))
+- 103 Binary Tree Zigzag Level Order Traversal  * ([note](https://lyan62.github.io/leetcode/tree/103))
+- 105 Construct Binary Tree from Preorder and Inorder Traversal * ([note](https://lyan62.github.io/leetcode/tree/105))
+- 116 Populating Next Right Pointers in Each Node * ([note](https://lyan62.github.io/leetcode/tree/116))
+- 200 Number of Islands * ([note](https://lyan62.github.io/leetcode/tree/200))
+- 230 Kth Smallest Element in a BST * ([note](https://lyan62.github.io/leetcode/tree/230))
+- 285 Inorder Successor in BST * ([note](https://lyan62.github.io/leetcode/tree/285))
 

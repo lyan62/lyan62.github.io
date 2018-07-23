@@ -126,14 +126,28 @@ leetcode:
    - title: "Binary Tree"
      url: /leetcode/tree
      children:
+     - title: "094 Binary Tree Inorder Traversal"
+       url: /leetcode/tree/094
      - title: "098 Validate Binary Search Tree"
        url: /leetcode/tree/098
      - title: "101 Symmetric Tree"
        url: /leetcode/tree/101
      - title: "102 Binary Tree Level Order Traversal"
        url: /leetcode/tree/102
+     - title: "103 Binary Tree Zigzag Level Order Traversal"
+       url: /leetcode/tree/103
      - title: "104 Maximum Depth of Binary Tree"
        url: /leetcode/tree/104
+     - title: "105 Construct Binary Tree from Preorder and Inorder Traversal"
+       url: /leetcode/tree/105
      - title: "108 Convert Sorted Array to Binary Search Tree"
        url: /leetcode/tree/108
+     - title: "116 Populating Next Right Pointers in Each Node"
+       url: /leetcode/tree/116
+     - title: "200 Number of Islands"
+       url: /leetcode/tree/200
+     - title: "230 Kth Smallest Element in a BST"
+       url: /leetcode/tree/230
+     - title: "285 Inorder Successor in BST"
+       url: /leetcode/tree/285
 
