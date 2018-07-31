@@ -275,3 +275,5 @@ defaults:
     values:
       sidebar:
         nav: "docs"
+
+google_analytics: UA-123131436-1
