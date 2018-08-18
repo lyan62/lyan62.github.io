@@ -7,6 +7,8 @@ tags: [leetcode, array, hard, google]
 date:   2018-08-18
 sidebar:
   nav: "leetcode"
+---
+
 
 > [Original Description](https://leetcode.com/problems/k-empty-slots/description/)  
 > There is a garden with N slots. In each slot, there is a flower. The N flowers will bloom one by one in N days. In each day, there will be exactly one flower blooming and it will be in the status of blooming since then.
