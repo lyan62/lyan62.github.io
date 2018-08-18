@@ -48,7 +48,9 @@ Given array $$a[ ]$$,
 > bit manipulation trick :**isolating the last set bit** （last set bit: 最末一个值为1的bit）
 > ![](https://he-s3.s3.amazonaws.com/media/uploads/5fd34b5.png)
 > **Answer: x & (-x) gives the last set bit in a number**:
-> i.e. -x  = 2’s complement of x = (a1b)’ + 1 = a’0b’ + 1 = a’0(0….0)’ + 1 = a’0(1...1) + 1 = a’1(0…0) = a’1b (-x 即是 x 的补码， 即 x 取反+1)
+
+> i.e. -x  = 2’s complement of x = (a1b)’ + 1 = a’0b’ + 1 = a’0(0….0)’ + 1 = a’0(1...1) + 1 = a’1(0…0) = a’1b 
+(-x 即是 x 的补码， 即 x 取反+1)
 > e.g. x = 10 = b'1010', x & (-x) = 1010 & 0110 = 0010 = 2
 
 **Binary Index (Fenwick) Tree (BIT)**：
