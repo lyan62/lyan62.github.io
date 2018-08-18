@@ -104,6 +104,6 @@ class FenwickTree(object):
         return res
 ```
 
-Application: Leetcode Problem [683 K empty slots](https://lyan62.github.io/leetcode/array/035)
+Application: Leetcode Problem [683 K empty slots](https://lyan62.github.io/leetcode/array/683)
 
 
