@@ -64,7 +64,7 @@ To generalize this every index $$i$$ in the BIT[] array stores the cumulative su
 > e.g. sum of first 12 numbers in array:  
 > $$a[] = BIT[ 12 ] + BIT[ 8 ] = (a[ 12 ] + … + a[ 9 ]) + (a[ 8 ] + … + a[ 1 ])$$ 
 
-** BIT[] is an array of size = 1 + sizeof(array a[])**, and is initialized with all values equal to 0.
+BIT[] is an array of size = 1 + sizeof(array a[]), and is initialized with all values equal to 0.
 
 ```python
 def update(x, val, BIT):
