@@ -82,6 +82,8 @@ leetcode:
        url: /leetcode/array/283
      - title: "350 Intersection of two arrays II"
        url: /leetcode/array/217
+     - title: "683 K Empty Slots"
+       url: /leetcode/array/683
 
    - title: "String"
      url: /leetcode/string/
