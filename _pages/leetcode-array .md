@@ -36,8 +36,9 @@ Problems listed in the order of difficulty. * denotes in top interview questions
 -----------------------------------------------------
 # Solve array problem with Fenwick Tree 
 
-(Refer to [Hackerearth Fenwick tree tutorial](https://www.hackerearth.com/practice/data-structures/advanced-data-structures/fenwick-binary-indexed-trees/tutorial/)))
-Given array $$a[]$$,
+(Refer to [Hackerearth Fenwick tree tutorial](https://www.hackerearth.com/practice/data-structures/advanced-data-structures/fenwick-binary-indexed-trees/tutorial/)))  
+
+Given array $$a[ ]$$,
 - Problems: 
 	- change the value at index $$i$$
 	- find sum of prefix of length $$k$$  
