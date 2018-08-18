@@ -57,3 +57,4 @@ Ordered solved problems with tags. * denotes in top interview questions.
 - [344](https://lyan62.github.io/leetcode/string/344) Reverse String * ([string](https://lyan62.github.io/leetcode/string/)) 
 - [350](https://lyan62.github.io/leetcode/array/350) Intersection of two arrays II * ([array](https://lyan62.github.io/leetcode/array/)) 
 - [387](https://lyan62.github.io/leetcode/string/387) First Unique Character in a String * ([string](https://lyan62.github.io/leetcode/string/)) 
+- [683]((https://lyan62.github.io/leetcode/array/683))) K Empty Slots * ([array](https://lyan62.github.io/leetcode/array/)) 

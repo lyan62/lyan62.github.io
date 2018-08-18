@@ -9,10 +9,9 @@ sidebar:
   nav: "leetcode"
 ---
 
-# Problems
 Problems listed in the order of difficulty. * denotes in top interview questions.
 
-## Easy
+# Easy
 - 001 Two sum * ([note](https://lyan62.github.io/leetcode/array/001))
 - 009 Palindrome Number ([note](https://lyan62.github.io/leetcode/array/009))
 - 035 Search Insert Position ([note](https://lyan62.github.io/leetcode/array/035))
@@ -31,8 +30,12 @@ Problems listed in the order of difficulty. * denotes in top interview questions
 - 283 Move zeros * ([note](https://lyan62.github.io/leetcode/array/283))
 - 350 Intersection of two arrays II * ([note](https://lyan62.github.io/leetcode/array/350))
 
-# Useful structures and tricks
+# Hard
+- 683 K Empty Slots * ([note]((https://lyan62.github.io/leetcode/array/683)))
+
+-----------------------------------------------------
 ## Solve array problem with Fenwick Tree 
+
 (Refer to [Hackerearth Fenwick tree tutorial](https://www.hackerearth.com/practice/data-structures/advanced-data-structures/fenwick-binary-indexed-trees/tutorial/)))
 Given array $$a[]$$,
 - Problems: 
@@ -50,7 +53,7 @@ Given array $$a[]$$,
 **Binary Index (Fenwick) Tree (BIT)**：
 - At any index, we store the sum of some numbers in the array
 > e.g. we have a = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]  
-> ![](https://he-s3.s3.amazonaws.com/media/uploads/68f2369.jpg)
+> ![](https://he-s3.s3.amazonaws.com/media/uploads/68f2369.jpg)  
 >  BIT[x]奇数位存当前值， 2的次放数位存截止到目前位数和
 
 To generalize this every index $$i$$ in the BIT[] array stores the cumulative sum from the index $$i$$ to $$i-(1<<r)+1$$ (both inclusive), where $$r$$ represents the last set bit in the index .
@@ -99,4 +102,5 @@ class FenwickTree(object):
 ```
 
 Application: Leetcode Problem [683 K empty slots](https://lyan62.github.io/leetcode/array/035)
+
 
