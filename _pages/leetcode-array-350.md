@@ -1,8 +1,8 @@
 ---
+title:  "350 Intersection of two arrays II"
 permalink: /leetcode/array/360
 layout: single
 classes: wide
-title:  "350 Intersection of two arrays II"
 tags: [leetcode, array, easy]
 date:   2018-07-17
 sidebar:
