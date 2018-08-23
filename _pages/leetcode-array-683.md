@@ -85,9 +85,9 @@ class Solution(object):
 Time complexity:$$ O(NlogN)$$ (as sum/update operation in fenwick tree is O(logN)), space complexity: $$O(N)$$. 
 
 
-Variation:
+## Variation:
 将原题中检测有K个空槽替换为：  
-the lastest day that contains a group of K flowers.
+output the lastest day that contains a group of K flowers.
 
 同样使用Fenwick tree, 但是要注意检测是否前一天满足条件的group存在， 并且当天该组两侧没有花开， 如果当天开得花破坏了已有group，
 再寻找是否存在新的group满足条件。
