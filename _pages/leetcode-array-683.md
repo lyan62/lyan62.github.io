@@ -83,3 +83,39 @@ class Solution(object):
         return -1
 ```
 Time complexity:$$ O(NlogN)$$ (as sum/update operation in fenwick tree is O(logN)), space complexity: $$O(N)$$. 
+
+
+Variation:
+将原题中检测有K个空槽替换为：  
+the lastest day that contains a group of K flowers.
+
+同样使用Fenwick tree, 但是要注意检测是否前一天满足条件的group存在， 并且当天该组两侧没有花开， 如果当天开得花破坏了已有group，
+再寻找是否存在新的group满足条件。
+
+```python
+class Solution(object):
+    def Kgroup(self, P, K):
+        N = len(P)
+        ftree = FenwickTree(N)
+        nums = [0] * (N+2)
+        day = -1
+        old_position = 0
+        for day_index, position in enumerate(P):
+            ftree.update(position, 1)
+            nums[position] = 1
+            # check if group in the previous day still exist
+            if day!=-1 and self.checkgroup(K, ftree, nums, P[old_position]) == True:
+                day = day_index+1
+            # otherwise search for new group
+            elif self.checkgroup(K, ftree, nums, position) == True:
+                day = day_index+1
+                old_position = position
+            print(day, nums)
+        print(day)
+        return day
+    def checkgroup(self, K, ftree, nums, position):
+        if position >= K and ftree.sum(position)- ftree.sum(position-K) == K and nums[position-K] ==0 and nums[position+1]==0:
+            return True
+        if position + K <= len(nums)-2 and ftree.sum(position+K)- ftree.sum(position)==K and nums[position+K] == 0 and nums[position-1]==0:
+            return True
+```
