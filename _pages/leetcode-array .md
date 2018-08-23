@@ -32,6 +32,7 @@ Problems listed in the order of difficulty. * denotes in top interview questions
 
 # Hard
 - 683 K Empty Slots * ([note]((https://lyan62.github.io/leetcode/array/683)))
+- I1 Maximum Fruit * ([note]((https://lyan62.github.io/leetcode/array/maximumfruit)))
 
 -----------------------------------------------------
 # Solve array problem with Fenwick Tree 
