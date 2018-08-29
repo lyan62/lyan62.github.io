@@ -3,7 +3,7 @@ permalink: /leetcode/ds/
 layout: single
 classes: wide
 title:  "Data Structures"
-tags: [leetcode, array]
+tags: [leetcode]
 date:   2018-08-27
 sidebar:
   nav: "leetcode"
