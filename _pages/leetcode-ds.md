@@ -9,7 +9,7 @@ sidebar:
   nav: "leetcode"
 ---
 
-- **Fenwick Tree**
+- **Fenwick Tree**  
 [Fenwick Tree](https://lyan62.github.io/leetcode/array/) 可以用于需要求得截止到index i (inclusive)的所有元素之和， 结构简单易实现。 
 	- Main Function: 
 		- update()  用于建立fenwick tree
