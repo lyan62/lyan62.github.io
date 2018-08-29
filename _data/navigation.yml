@@ -45,6 +45,8 @@ cpp:
 
 # sidebar for leetcode practice
 leetcode:
+   - title: "Data Structures"
+     url: /leetcode/ds/
    - title: "Array"
      url: /leetcode/array/
      children:
