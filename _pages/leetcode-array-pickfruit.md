@@ -35,6 +35,8 @@ max amount of fruit.
 
 同时需要注意如果重复出现同一水果类型，则更新basket时需要从A[i-1]第一次出现的时候计数，设置same变量记录重复数，在更新basket时同步更新counter以提高效率。
 
+Note: this problem is similar to the [leetcode 159 longest substring with most two distinct characters](https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/description/)
+
 ```python
 def solution(A):
     # write your code in Python 3.6
