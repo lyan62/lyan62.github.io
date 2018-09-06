@@ -47,9 +47,11 @@ def solution(A):
         same = 1
         for i in range(len(A)):
             if A[i] in basket:
+                cnt +=1
                 if A[i] == A[i-1]:
                     same += 1
-                cnt +=1
+                else:
+                    same = 1
             else:
                 if len(basket)<2:
                     basket.append(A[i])
