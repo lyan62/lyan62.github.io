@@ -23,6 +23,7 @@ References: [1](http://taskonomy.stanford.edu/taskonomy_CVPR2018.pdf), [2](https
 	- the relationships can be computationally measured
 	- tasks belong to a structure
 
+## Model
 ### Task-specific modeling
 - model:
 	- encoder-decoder structure
