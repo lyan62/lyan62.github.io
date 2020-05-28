@@ -6,8 +6,7 @@ author_profile: true
 comments: true
 ---
 
-I am a second year M.S. student in ECE, University of Maryland, College Park. 
-I work with [Prof. Jordan Boyd-Graber](http://www.cs.colorado.edu/~jbg/) on Natural Language Processing 
- for my Master's Thesis Research.
- 
-I received my B.S. from [Northwestern Polytechnical University](http://en.nwpu.edu.cn/).
+I am now a machine learning research engineer at Comcast AI Research Lab. 
+
+Before this, I completed my MS at University of Maryland, College Park, 
+where I worked with [Prof. Jordan Boyd-Graber](http://www.cs.colorado.edu/~jbg/) on Natural Language Processing.
