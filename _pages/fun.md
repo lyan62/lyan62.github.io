@@ -56,30 +56,33 @@ gallery_4:
     image_path: /assets/images/fun/weirdal.png
     alt: "gouache weirdAL"
     title: "WeirdAl (Gouache)"
-
-gallery_5:
- - url: /assets/images/acrylic_qinling.jpg
-    image_path: /assets/images/fun/acrylic_qinling.jpg
-    alt: "acryg Mountains (acrylic)"
-    title: "Qinlin Mountains (acrylic)"
     
-gallery_6:
+gallery_ls1:
+ - url: /assets/images/acrylic_qinling.jpg
+   image_path: /assets/images/fun/acrylic_qinling.jpg
+   alt: "acrylic Mountains (acrylic)"
+   title: "Qinlin Mountains (acrylic)"
+    
+gallery_ls2:
   - url: /assets/images/soft_pastel_qinling.jpg
     image_path: /assets/images/fun/soft_pastel_qinling.jpg
     alt: "soft pastel qinling"
     title: "Qinling Mountains (soft pastel 12*16)"
 ---
+
 _"Life's journey is not to arrive at the grave safely, in a well preserved body, but rather to skid in sideways,
 totally worn out, shouting, 'Holy mackerel... what a ride!'."_-- [Christof Koch](https://en.wikipedia.org/wiki/Christof_Koch)
 
 ## [Painting](https://lyan62.deviantart.com/gallery/) 
-I started drawing/painting since 2012. I do mostly pencil sketching, acrylic and gouache. 
+I started drawing/painting since 2012. I do mostly acrylic paints, soft pastels and gouache. 
+{% include gallery id="gallery_ls1" %}
+{% include gallery id="gallery_ls2" %}
+{% include gallery id="gallery_4" %}
 {% include gallery id="gallery_0" %}
 {% include gallery id="gallery_1" %}
 {% include gallery id="gallery_2" %}
 {% include gallery id="gallery_3" %}
-{% include gallery id="gallery_5" %}
-{% include gallery id="gallery_6" %}
+
 
 ## Other of my interests:
 Besides drawing, I like
