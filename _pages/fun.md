@@ -74,7 +74,7 @@ _"Life's journey is not to arrive at the grave safely, in a well preserved body,
 totally worn out, shouting, 'Holy mackerel... what a ride!'."_-- [Christof Koch](https://en.wikipedia.org/wiki/Christof_Koch)
 
 ## [Painting](https://lyan62.deviantart.com/gallery/) 
-I started drawing/painting since 2012. I do mostly acrylic paints, soft pastels and gouache. 
+I started drawing/painting since 2012. I do mostly acrylic paintings, soft pastels and gouache. 
 {% include gallery id="gallery_ls1" %}
 {% include gallery id="gallery_ls2" %}
 {% include gallery id="gallery_4" %}
