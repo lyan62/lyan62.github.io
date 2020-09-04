@@ -11,12 +11,10 @@ header:
   caption: "Featuer matching in the process of panorama building."
 excerpt: "Natural Language Processing. Computer Vision. Deep Learning."
 
-intro_nlp:
-  - excerpt: '**Natural Language Processing Related Projects (Updating soon)**'
 intro_ml: 
-  - excerpt: '**Machine Learning Related Projects**'
+  - excerpt: '**Machine Learning Related Projects**'  
 intro_cv: 
-  - excerpt: '**Computer Vision Related Projects**'
+  - excerpt: '**Computer Vision Related Projects**'  
 
 ml_row:
   - image_path: /assets/images/projects/gi.png
@@ -48,7 +46,7 @@ cv_row:
   - image_path: /assets/images/projects/faces.png
     image_caption: "Face swapping between male and female"
     alt: "face-swapped image"
-    title: "Face swapping in images and video."
+    title: "Face swapping in images and video"
     excerpt: "Implemented face replacement by using Triangulation and Thin Plate Spline (TPS), and improved swapped image with blending."
     url: /assets/pdfs/face_swap.pdf
     btn_label: "Read More"
@@ -61,12 +59,9 @@ cv_row:
     url: /assets/pdfs/sfm.pdf
     btn_label: "Read More"
 ---
-{% include feature_row id="intro_nlp" type="center" %}
 
-{% include feature_row id="intro_ml" type="center" %}
-{% include feature_row id="ml_row" type="left" %}
 
-{% include feature_row id="intro_cv" type="center" %}
-{% include feature_row id="cv_row" type="left" %}
+{% include feature_row id="ml_row" type="center" %}  
+{% include feature_row id="cv_row" type="center" %}
 
 
